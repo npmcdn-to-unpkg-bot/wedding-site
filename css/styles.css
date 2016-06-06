@@ -1,0 +1,249 @@
+ul {
+  list-style: none; }
+
+.my-row {
+  height: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap; }
+
+body {
+  background-color: #f2f2f2; }
+
+#main-navigation {
+  height: 50px;
+  background-color: #fffff0; }
+
+h1 {
+  font-family: "La Belle Aurore";
+  font-weight: 400;
+  color: #fffff0;
+  font-size: 70px; }
+
+h2 {
+  font-family: "La Belle Aurore";
+  font-weight: 300;
+  color: #fffff0; }
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #fffff0; }
+  h3 span {
+    font-size: 25px; }
+
+h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #919191; }
+
+h5 {
+  font-family: "Lato", sans-serif;
+  color: #919191;
+  font-weight: 300; }
+
+#hamburger {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 10; }
+
+#overlay-nav {
+  background-color: #3a3d54;
+  opacity: 0.9;
+  z-index: 1000;
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0; }
+  #overlay-nav .closebtn-holder {
+    text-align: left;
+    margin-left: 20px; }
+    #overlay-nav .closebtn-holder .closebtn {
+      font-size: 50px;
+      color: #f2f2f2; }
+  #overlay-nav .overlay-text ul li {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    list-style-type: none; }
+    #overlay-nav .overlay-text ul li a {
+      color: #f2f2f2; }
+
+#home-index-section {
+  background: url(../img/christianandchimere.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #111F2C; }
+  #home-index-section #logo {
+    margin-bottom: 100px; }
+  #home-index-section h2, #home-index-section h3 {
+    font-family: "Lato", sans-serif; }
+  #home-index-section a {
+    color: #3a3d54;
+    font-family: "Lato", sans-serif;
+    font-size: 25px;
+    font-weight: 300; }
+    #home-index-section a .ghost-button {
+      margin-top: 20px;
+      display: inline-block;
+      width: 200px;
+      padding: 8px;
+      color: #3a3d54;
+      border: 1px solid #3a3d54;
+      text-align: center;
+      outline: none;
+      text-decoration: none; }
+
+#about-us-section {
+  position: relative;
+  background-color: #dedbd8; }
+  #about-us-section h3 {
+    font-weight: 300;
+    color: #3a3d54; }
+  #about-us-section h2 {
+    color: #3a3d54; }
+  #about-us-section p {
+    color: #919191; }
+
+#proposal-section {
+  background: url(../img/vinyard.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #proposal-section .proposal-info .proposal-info-content {
+    background-color: #3a3d54;
+    opacity: .85;
+    padding: 50px; }
+  #proposal-section .proposal-info p {
+    color: #f2f2f2; }
+
+#event-info-section {
+  background-color: #ead3d0; }
+  #event-info-section h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    color: #919191;
+    margin-top: 70px; }
+  #event-info-section h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #919191; }
+  #event-info-section h4 {
+    font-size: 30px;
+    font-family: "La Belle Aurore"; }
+  #event-info-section p {
+    font-family: "Lato", sans-serif;
+    color: #919191;
+    margin-bottom: 0px; }
+  #event-info-section .scroll-collage {
+    color: #919191;
+    margin-top: 150px;
+    cursor: pointer; }
+  #event-info-section .grid-item {
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+    margin-top: 10px; }
+  #event-info-section .grid-item--width2 {
+    width: 160px; }
+  #event-info-section .grid-item--height2 {
+    height: 140px; }
+
+#rsvp-registry-section .rsvp-postcard {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: solid 2px #3a3d54; }
+  #rsvp-registry-section .rsvp-postcard h3 {
+    font-weight: 300;
+    color: #3a3d54; }
+  #rsvp-registry-section .rsvp-postcard .rsvp-form {
+    padding: 50px; }
+    #rsvp-registry-section .rsvp-postcard .rsvp-form input[type=text],
+    #rsvp-registry-section .rsvp-postcard .rsvp-form input[type=email],
+    #rsvp-registry-section .rsvp-postcard .rsvp-form input[type=number],
+    #rsvp-registry-section .rsvp-postcard .rsvp-form input[type=submit] {
+      outline: none;
+      background: none;
+      border: none;
+      border-bottom: 1px solid #3a3d54;
+      font: 400 16px "Lato", sans-serif;
+      width: 100%;
+      padding: 10px 0;
+      margin-bottom: 18px;
+      color: #3a3d54;
+      display: block;
+      box-shadow: none; }
+    #rsvp-registry-section .rsvp-postcard .rsvp-form label {
+      font-family: "Lato", sans-serif;
+      font-weight: 300;
+      color: #3a3d54;
+      font-size: 16px;
+      float: left;
+      clear: none;
+      display: block; }
+    #rsvp-registry-section .rsvp-postcard .rsvp-form input[type=radio],
+    #rsvp-registry-section .rsvp-postcard .rsvp-form input.radio {
+      float: left;
+      clear: none;
+      margin: 8px 9px 0 2px; }
+  #rsvp-registry-section .rsvp-postcard .registry {
+    width: 100%;
+    padding: 50px; }
+    #rsvp-registry-section .rsvp-postcard .registry .registry-holder {
+      border-left: solid 1px #3a3d54;
+      height: 600px;
+      padding-left: 50px; }
+      #rsvp-registry-section .rsvp-postcard .registry .registry-holder .zola {
+        width: 300px;
+        height: 189px; }
+
+.atlanta-divider {
+  background: url(../img/background2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #111F2C;
+  height: 400px; }
+  .atlanta-divider h2 {
+    font-size: 75px;
+    padding-top: 130px; }
+
+#atlanta-section {
+  background-color: #3a3d54; }
+
+.negative-space {
+  margin-bottom: -15px; }
+
+.below18 {
+  margin-bottom: 18px; }
+
+.below24 {
+  margin-bottom: 24px; }
+
+.below30 {
+  margin-bottom: 30px; }
+
+.below36 {
+  margin-bottom: 36px; }
+
+.labelle-ff {
+  font-family: "La Belle Aurore"; }
+
+.ivory-font {
+  color: #fffff0; }
+
+.fwb {
+  font-weight: 700; }
+
+/*# sourceMappingURL=styles.css.map */
