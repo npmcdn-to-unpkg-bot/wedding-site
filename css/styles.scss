@@ -206,6 +206,7 @@ h5{
   background-color: $blush;
 
 
+
   h2{
     font-family: $lato;
     font-weight: 300;
@@ -239,17 +240,20 @@ h5{
     cursor: pointer;
   }
 
+  .collage{
+    height:900px;
 
-  .grid-item {
+  }
+  .item {
     float: left;
     width: 200px;
-    margin-right: 10px;
+
     margin-top: 10px;
   }
 
-  .grid-item--width2 { width: 160px; }
-  .grid-item--height2 { height: 140px; }
-
+  .the-date{
+    margin-left:30px;
+  }
   //div#masonry div {
   //  transition: .8s opacity;
   //}
@@ -339,25 +343,25 @@ h5{
     }
   }
 }
-//
-//.atlanta-divider{
-//  background: url(../img/background2.jpg) no-repeat center center fixed;
-//  -webkit-background-size: cover;
-//  -moz-background-size: cover;
-//  -o-background-size: cover;
-//  background-size: cover;
-//  background-color: $dark-blue;
-//  height:400px;
-//
-//  h2{
-//    font-size: 75px;
-//    padding-top: 130px;
-//  }
-//}
-//
-//#atlanta-section{
-//  background-color: $navy;
-//}
+
+.atlanta-divider{
+  background: url(../img/background2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: $dark-blue;
+  height:400px;
+
+  h2{
+    font-size: 75px;
+    padding-top: 130px;
+  }
+}
+
+#atlanta-section{
+  background-color: $navy;
+}
 
 
 .negative-space{
@@ -386,6 +390,15 @@ h5{
 
 .fwb{
   font-weight: 700;
+}
+
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-scroll {
+overflow-y: scroll;
 }
 
 
