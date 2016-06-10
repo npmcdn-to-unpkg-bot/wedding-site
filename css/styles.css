@@ -18,30 +18,30 @@ body {
   background-color: #fffff0; }
 
 h1 {
-  font-family: "La Belle Aurore";
+  font-family: "Great Vibes", "cursive;";
   font-weight: 400;
   color: #fffff0;
   font-size: 70px; }
 
 h2 {
-  font-family: "La Belle Aurore";
+  font-family: "Great Vibes", "cursive;";
   font-weight: 300;
   color: #fffff0; }
 
 h3 {
-  font-family: "Lato", sans-serif;
+  font-family: "Prata", serif;
   font-weight: 400;
   color: #fffff0; }
   h3 span {
     font-size: 25px; }
 
 h4 {
-  font-family: "Lato", sans-serif;
+  font-family: "Prata", serif;
   font-weight: 400;
   color: #919191; }
 
 h5 {
-  font-family: "Lato", sans-serif;
+  font-family: "Prata", serif;
   color: #919191;
   font-weight: 300; }
 
@@ -67,7 +67,7 @@ h5 {
       font-size: 50px;
       color: #f2f2f2; }
   #overlay-nav .overlay-text ul li {
-    font-family: "Lato", sans-serif;
+    font-family: "Prata", serif;
     font-weight: 300;
     font-size: 50px;
     text-decoration: none;
@@ -77,7 +77,7 @@ h5 {
       color: #f2f2f2; }
 
 #home-index-section {
-  background: url(../img/christianandchimere.png) no-repeat center center fixed;
+  background: url(../img/clovecbackground.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -86,10 +86,10 @@ h5 {
   #home-index-section #logo {
     margin-bottom: 100px; }
   #home-index-section h2, #home-index-section h3 {
-    font-family: "Lato", sans-serif; }
+    font-family: "Prata", serif; }
   #home-index-section a {
     color: #3a3d54;
-    font-family: "Lato", sans-serif;
+    font-family: "Prata", serif;
     font-size: 25px;
     font-weight: 300; }
     #home-index-section a .ghost-button {
@@ -130,19 +130,19 @@ h5 {
 #event-info-section {
   background-color: #ead3d0; }
   #event-info-section h2 {
-    font-family: "Lato", sans-serif;
+    font-family: "Prata", serif;
     font-weight: 300;
     color: #919191;
     margin-top: 70px; }
   #event-info-section h3 {
-    font-family: "Lato", sans-serif;
+    font-family: "Prata", serif;
     font-weight: 400;
     color: #919191; }
   #event-info-section h4 {
     font-size: 30px;
-    font-family: "La Belle Aurore"; }
+    font-family: "Great Vibes", "cursive;"; }
   #event-info-section p {
-    font-family: "Lato", sans-serif;
+    font-family: "Prata", serif;
     color: #919191;
     margin-bottom: 0px; }
   #event-info-section .scroll-collage {
@@ -175,7 +175,7 @@ h5 {
       background: none;
       border: none;
       border-bottom: 1px solid #3a3d54;
-      font: 400 16px "Lato", sans-serif;
+      font: 400 16px "Prata", serif;
       width: 100%;
       padding: 10px 0;
       margin-bottom: 18px;
@@ -183,7 +183,7 @@ h5 {
       display: block;
       box-shadow: none; }
     #rsvp-registry-section .rsvp-postcard .rsvp-form label {
-      font-family: "Lato", sans-serif;
+      font-family: "Prata", serif;
       font-weight: 300;
       color: #3a3d54;
       font-size: 16px;
@@ -237,7 +237,7 @@ h5 {
   margin-bottom: 36px; }
 
 .labelle-ff {
-  font-family: "La Belle Aurore"; }
+  font-family: "Great Vibes", "cursive;"; }
 
 .ivory-font {
   color: #fffff0; }
