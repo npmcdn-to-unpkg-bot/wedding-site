@@ -214,9 +214,12 @@
         </div>
     </div>
     <div id="atlanta-section" class="section">
-        <div class="map">
-
+        <div id="atlanta-content" class="my-row">
+            <div class="small-12 medium-12 columns atlanta-content-info">
+                This is where map content will go
+            </div>
         </div>
+        <div id="map"></div>
     </div>
 
 
@@ -248,8 +251,25 @@
 <script type="text/javascript" src="fullPage.js-master/jquery.fullPage.js"></script>
 <script src="js/jquery.countdown-2.1.0/jquery.countdown.js"></script>
 <script src="js/masonry.pkgd.js"></script>
-<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js" async defer></script>
+<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.js"></script><script>
+    function initMap() {
+
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+            center: {lat: 33.757, lng: -84.338},
+            zoom: 13,
+            scrollwheel: false
+        });
+        google.maps.event.addListener(map, 'click', function(event){
+            this.setOptions({scrollwheel:true});
+        });
+        google.maps.event.addListener(map, 'mouseout', function(event){
+            this.setOptions({scrollwheel:false});
+        });
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
 
 <script type="text/javascript" src="js/christian.js"></script>
 </body>

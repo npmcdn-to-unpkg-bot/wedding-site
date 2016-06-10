@@ -218,8 +218,21 @@ h5 {
     font-size: 75px;
     padding-top: 130px; }
 
-#atlanta-section {
-  background-color: #3a3d54; }
+#atlanta-section #atlanta-content {
+  z-index: 100;
+  position: relative;
+  width: 50%; }
+  #atlanta-section #atlanta-content .atlanta-content-info {
+    background-color: #3a3d54;
+    opacity: .9;
+    padding: 50px; }
+#atlanta-section #map {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 0; }
 
 .negative-space {
   margin-bottom: -15px; }
