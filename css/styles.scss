@@ -122,7 +122,7 @@ h5{
 }
 
 #home-index-section{
-  background: url(../img/clovecbackground.jpg) no-repeat center center fixed;
+  background: url(../img/christianandchimere.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -142,25 +142,27 @@ h5{
     font-size: 25px;
     font-weight: 300;
 
-    .ghost-button {
-      margin-top: 20px;
-      display: inline-block;
-      width: 200px;
-      padding: 8px;
-      color: $navy;
-      border: 1px solid $navy;
-      text-align: center;
-      outline: none;
-      text-decoration: none;
+
+      .ghost-button {
+        margin-top: 20px;
+        display: inline-block;
+        width: 200px;
+        padding: 8px;
+        color: $navy;
+        border: 1px solid $navy;
+        text-align: center;
+        outline: none;
+        text-decoration: none;
 
 
-    }
+      }
+
   }
 
 
 }
 
-#about-us-section{
+#our-story-section{
 
   position: relative;
   background-color: $lighter-gray;
@@ -179,6 +181,63 @@ h5{
     color: $gray;
   }
 }
+
+//#meet-us-section{
+//  position: relative;
+//  height: 900px;
+//  background: url("../img/meetus.jpg") no-repeat center fixed;
+//  -webkit-background-size: 100%;
+//  -moz-background-size: 100%;
+//  -o-background-size: 100%;
+//  background-size: 100%;
+//
+//  .meet-christian{
+//    position: absolute;
+//    bottom: 200px;
+//    left: 103px;
+//
+//  }
+//
+//  .meet-us-content{
+//    flex: 0 0 50%;
+//    height:100%;
+//  }
+//
+//  .christian{
+//    background-color: $navy;
+//    opacity: .8;
+//    padding:50px;
+//
+//
+//    p{
+//      font-size: 18px;
+//      font-family: $lato;
+//      color: $ivory;;
+//    }
+//  }
+//
+//  .chimere{
+//    background-color: $blush;
+//    opacity: .8;
+//    padding:50px;
+//
+//
+//
+//    p{
+//      font-size: 18px;
+//      font-family: $lato;
+//      color: $ivory;;
+//    }
+//  }
+//
+//  .meet-chimere{
+//    position: absolute;
+//    bottom: 200px;
+//    right:103px;
+//
+//  }
+//
+//}
 
 #proposal-section{
   background: url(../img/vinyard.jpg) no-repeat center center fixed;
@@ -204,11 +263,14 @@ h5{
 
 #event-info-section{
   background-color: $blush;
-
+  
+  h1{
+    color: $gray;
+  }
 
 
   h2{
-    font-family: $lato;
+    font-family: $labelle;
     font-weight: 300;
     color: $gray;
     margin-top: 70px;
@@ -221,10 +283,7 @@ h5{
     color: $gray;
   }
 
-  h4{
-    font-size: 30px;
-    font-family: $labelle;
-  }
+
 
 
 
@@ -236,7 +295,7 @@ h5{
 
   .scroll-collage{
     color: $gray;
-    margin-top: 150px;
+    margin-top: 100px;
     cursor: pointer;
   }
 
@@ -251,8 +310,10 @@ h5{
     margin-top: 10px;
   }
 
-  .the-date{
+  .the-dates{
     margin-left:30px;
+
+
   }
   //div#masonry div {
   //  transition: .8s opacity;
@@ -269,7 +330,6 @@ h5{
 #rsvp-registry-section{
 
   .rsvp-postcard{
-    margin-top: 50px;
     margin-bottom: 50px;
     border: solid 2px $navy;
 
@@ -280,10 +340,7 @@ h5{
     }
 
     .rsvp-form{
-      padding: 50px;
-
-
-
+      padding-left: 50px;
       input[type=text],
       input[type=email],
       input[type=number],
@@ -345,7 +402,9 @@ h5{
 }
 
 .atlanta-divider{
-  background: url(../img/background2.jpg) no-repeat center center fixed;
+  background: url(../img/background2.jpg) no-repeat;
+  background-position: top -128px right 0px;
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -420,6 +479,34 @@ h5{
 .overflow-scroll {
 overflow-y: scroll;
 }
+
+.padtop50{
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+//a{
+//  color: $navy;
+//  font-family: $lato;
+//  font-size: 25px;
+//  font-weight: 300;
+//
+//
+//  .ghost-button {
+//    margin-top: 20px;
+//    display: inline-block;
+//    width: 200px;
+//    padding: 8px;
+//    color: $ivory;
+//    border: 3px solid $navy;
+//    text-align: center;
+//    outline: none;
+//    text-decoration: none;
+//
+//
+//  }
+//
+//}
 
 
 

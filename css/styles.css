@@ -77,7 +77,7 @@ h5 {
       color: #f2f2f2; }
 
 #home-index-section {
-  background: url(../img/clovecbackground.jpg) no-repeat center center fixed;
+  background: url(../img/christianandchimere.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -103,15 +103,15 @@ h5 {
       outline: none;
       text-decoration: none; }
 
-#about-us-section {
+#our-story-section {
   position: relative;
   background-color: #dedbd8; }
-  #about-us-section h3 {
+  #our-story-section h3 {
     font-weight: 300;
     color: #3a3d54; }
-  #about-us-section h2 {
+  #our-story-section h2 {
     color: #3a3d54; }
-  #about-us-section p {
+  #our-story-section p {
     color: #919191; }
 
 #proposal-section {
@@ -129,8 +129,10 @@ h5 {
 
 #event-info-section {
   background-color: #ead3d0; }
+  #event-info-section h1 {
+    color: #919191; }
   #event-info-section h2 {
-    font-family: "Prata", serif;
+    font-family: "Great Vibes", "cursive;";
     font-weight: 300;
     color: #919191;
     margin-top: 70px; }
@@ -138,16 +140,13 @@ h5 {
     font-family: "Prata", serif;
     font-weight: 400;
     color: #919191; }
-  #event-info-section h4 {
-    font-size: 30px;
-    font-family: "Great Vibes", "cursive;"; }
   #event-info-section p {
     font-family: "Prata", serif;
     color: #919191;
     margin-bottom: 0px; }
   #event-info-section .scroll-collage {
     color: #919191;
-    margin-top: 150px;
+    margin-top: 100px;
     cursor: pointer; }
   #event-info-section .collage {
     height: 900px; }
@@ -155,18 +154,17 @@ h5 {
     float: left;
     width: 200px;
     margin-top: 10px; }
-  #event-info-section .the-date {
+  #event-info-section .the-dates {
     margin-left: 30px; }
 
 #rsvp-registry-section .rsvp-postcard {
-  margin-top: 50px;
   margin-bottom: 50px;
   border: solid 2px #3a3d54; }
   #rsvp-registry-section .rsvp-postcard h3 {
     font-weight: 300;
     color: #3a3d54; }
   #rsvp-registry-section .rsvp-postcard .rsvp-form {
-    padding: 50px; }
+    padding-left: 50px; }
     #rsvp-registry-section .rsvp-postcard .rsvp-form input[type=text],
     #rsvp-registry-section .rsvp-postcard .rsvp-form input[type=email],
     #rsvp-registry-section .rsvp-postcard .rsvp-form input[type=number],
@@ -207,7 +205,8 @@ h5 {
         height: 189px; }
 
 .atlanta-divider {
-  background: url(../img/background2.jpg) no-repeat center center fixed;
+  background: url(../img/background2.jpg) no-repeat;
+  background-position: top -128px right 0px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -263,5 +262,9 @@ h5 {
 
 .overflow-scroll {
   overflow-y: scroll; }
+
+.padtop50 {
+  padding-top: 50px;
+  margin-bottom: 50px; }
 
 /*# sourceMappingURL=styles.css.map */
