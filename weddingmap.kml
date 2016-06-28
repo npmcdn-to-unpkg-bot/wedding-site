@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Chimére + Christian Wedding Map</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Event Locations</name>
+			<Placemark>
+				<name>Wahoo! Grill</name>
+				<styleUrl>#icon-960-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-84.31071259999999,33.7648605,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Piedmont Park Pavilion (Small - 2)</name>
+				<description><![CDATA[Friday, 9/9/16: These coordinates will guide you directly to the pavilion near the soccer fields and tennis center where our "Say I Do" Barbecue will take place the evening before our nuptials.]]></description>
+				<styleUrl>#icon-960-DB4436</styleUrl>
+				<Point>
+					<coordinates>-84.37450000000001,33.78686111111111,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Hotel Options</name>
+			<Placemark>
+				<name>Courtyard Atlanta Decatur Downtown/Emory</name>
+				<styleUrl>#icon-1035-nodesc</styleUrl>
+				<Point>
+					<coordinates>-84.29695099999998,33.776809,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Emory Conference Center Hotel</name>
+				<styleUrl>#icon-1035-nodesc</styleUrl>
+				<Point>
+					<coordinates>-84.32431199999996,33.801544,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sheraton Atlanta Hotel</name>
+				<styleUrl>#icon-1035-nodesc</styleUrl>
+				<Point>
+					<coordinates>-84.38320090000002,33.7589981,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Foodie Hotspots</name>
+			<Placemark>
+				<name>Apres Diem</name>
+				<description><![CDATA[Hip and French with yummy food! Here's the location of Chimére and Christian's first date as a couple. Don't skip dessert!]]></description>
+				<styleUrl>#icon-1085</styleUrl>
+				<Point>
+					<coordinates>-84.36715049999998,33.7791736,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thumbs Up Diner</name>
+				<description><![CDATA[The fish and grits never disappoint. These peeps make their own jams, too. Pop in for breakfast but be sure you've got cash (no cards accepted).]]></description>
+				<styleUrl>#icon-1085</styleUrl>
+				<Point>
+					<coordinates>-84.29813939999997,33.77541989999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Varsity</name>
+				<description><![CDATA[Ballpark cuisine known by many as an antidote for a late night of spirits, The Varsity has a historical relevance of its own. Common order by those who know what's up: chili cheese dog, onion rings (skip the fries), and an orange drink. What'll ya have?!]]></description>
+				<styleUrl>#icon-1085</styleUrl>
+				<Point>
+					<coordinates>-84.38933370000001,33.7716918,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Taqueria del Sol</name>
+				<styleUrl>#icon-1085-nodesc</styleUrl>
+				<Point>
+					<coordinates>-84.30206529999998,33.77596889999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bantam Pub</name>
+				<description><![CDATA[Tucked away as a typical neighborhood pub should be with a decent wine list and beer options, Bantam Pub is Chimére and Christian's fave brunch and dinner spot. ]]></description>
+				<styleUrl>#icon-1085</styleUrl>
+				<Point>
+					<coordinates>-84.36297769999999,33.76631309999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Noni's</name>
+				<description><![CDATA[C&C's go-to for their pasta cravings, Noni's has a neighborhood bar kinda feel. The staff is pretty stoic but the chef makes up for it. They have a decent craft beer selection.]]></description>
+				<styleUrl>#icon-1085</styleUrl>
+				<Point>
+					<coordinates>-84.37594569999999,33.7541876,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Edgewood Corner Tavern</name>
+				<description><![CDATA[The site of Chimére's official reign of pool tables versus Christian, this is a quirky spot and one of few in Atlanta that still allow cig smoking (upstairs only). They have great assortment of craft beer and the food is tasty.]]></description>
+				<styleUrl>#icon-1085</styleUrl>
+				<Point>
+					<coordinates>-84.37250469999998,33.7545457,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Krog Street Market</name>
+				<description><![CDATA[Plenty of restaurants and casual dining here. Plus they're water evangelists, giving out free water - cold, room temp or sparkling. There's a bakery that'll make you wanna slap your mama and Hop City has so many craft beers you'll need to call an Uber. Parking is a challenge so plan on valet.]]></description>
+				<styleUrl>#icon-1085</styleUrl>
+				<Point>
+					<coordinates>-84.3640337,33.7567673,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ponce City Market</name>
+				<description><![CDATA[PCM is literally the site where Chimére and Christian worked nights and developed a solid friendship. Its got tons of shops and food on the 1st and 2nd floor. Download the ParkMobile app for easy parking or plan to valet.]]></description>
+				<styleUrl>#icon-1085</styleUrl>
+				<Point>
+					<coordinates>-84.36618959999998,33.7722636,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cypress Street Pint and Plate</name>
+				<description><![CDATA[Christian and Chimére love this place! The best appetizer is the sweet potato nachos by far. They also have a great assortment of beers and wine. The food is never lacking and the service is top notch.]]></description>
+				<styleUrl>#icon-1085</styleUrl>
+				<Point>
+					<coordinates>-84.3861202,33.7773102,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Across the Street</name>
+				<description><![CDATA[The couple first visited this place after vowing not to wait in line for brunch at Highland Bakery across the street. It's got a tex-mex flair done in a sophisticated way. Try the crab enchiladas! (Sundays no booze until 12:30pm)]]></description>
+				<styleUrl>#icon-1085</styleUrl>
+				<Point>
+					<coordinates>-84.36539099999999,33.7614518,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>El Bandido Mex Mex Grill</name>
+				<description><![CDATA[The staff is friendly and the food consistently meets expectations. You can't beat the free parking since parking throughout the city is scarce. Margaritas anyone?]]></description>
+				<styleUrl>#icon-1085</styleUrl>
+				<Point>
+					<coordinates>-84.3515921,33.7631826,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Tourist spots</name>
+			<Placemark>
+				<name>Center for Civil and Human Rights</name>
+				<description><![CDATA[Part of Atlanta's many museums, the Center has amazing exhibits including a simulator of the sit-ins our ancestors endured in pursuit of equality. A must-see!]]></description>
+				<styleUrl>#icon-1037</styleUrl>
+				<Point>
+					<coordinates>-84.39305100000001,33.76405500000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Georgia Aquarium</name>
+				<description><![CDATA[Adults and kiddos alike love this place. Chimére's favorites? The tank full of piranhas, the penguins and the beluga whales.]]></description>
+				<styleUrl>#icon-1037</styleUrl>
+				<Point>
+					<coordinates>-84.3951098,33.76338199999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Martin Luther King Jr. National Historic Site</name>
+				<description><![CDATA[You can't visit Atlanta without stopping here to pay homage to the man who lead the Civil Rights movement. For a bonus, sign up for a free tour of his childhood home.]]></description>
+				<styleUrl>#icon-1037</styleUrl>
+				<Point>
+					<coordinates>-84.37345149999999,33.7563179,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Little Five Points</name>
+				<description><![CDATA[This area of Atlanta is pretty hippy wacky chic. Lots of artists selling their creations, hip clothing shops and plenty of food around. This is a go-to for Chimére's vape and piercing needs and Christian's hookah supplies.]]></description>
+				<styleUrl>#icon-1037</styleUrl>
+				<Point>
+					<coordinates>-84.349604,33.7643869,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Wren's Nest</name>
+				<styleUrl>#icon-1037-nodesc</styleUrl>
+				<Point>
+					<coordinates>-84.422393,33.7375619,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-1035-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1035-biz-hotel.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1035-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1035-biz-hotel.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1035-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1035-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1035-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1037-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1037-biz-house.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1037-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1037-biz-house.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1037'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1037-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1037-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1037-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1037-biz-house.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1037-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1037-biz-house.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1037-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1037-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1037-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1085-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1085-biz-restaurant-generic.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1085-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1085-biz-restaurant-generic.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1085'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1085-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1085-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1085-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1085-biz-restaurant-generic.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1085-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1085-biz-restaurant-generic.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1085-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1085-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1085-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-960-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-960-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-960-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-960-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-960-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-960-DB4436-nodesc-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-960-DB4436-nodesc-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-960-DB4436-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-960-DB4436-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-960-DB4436-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

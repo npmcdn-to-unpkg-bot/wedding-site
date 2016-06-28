@@ -11,11 +11,29 @@ $(document).ready(function() {
     var overlayLinks = $('.overlay-link');
     var scrollCollage = $('.scroll-collage');
     var collage = $('.collage');
+    var meetChristian = $('.meet-christian');
+    var meetChimere = $('.meet-chimere');
+    var chimere = $('.chimere');
+    var christian = $('.christian');
+    var meetUsContent = $('.meet-us-content');
+
+    meetChimere.on('click', function () {
+        chimere.velocity({
+            left: 0
+        }, 800);
+
+    });
+    meetChristian.on('click', function () {
+        christian.velocity({
+            right: 0
+        }, 500);
+        console.log('christian')
+
+    });
 
     scrollCollage.on('click', function() {
         collage.removeClass('overflow-hidden');
         collage.addClass('overflow-scroll');
-        console.log('clicked')
     });
 
     $('#fullpage').fullpage({

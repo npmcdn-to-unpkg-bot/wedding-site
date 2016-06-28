@@ -114,6 +114,58 @@ h5 {
   #our-story-section p {
     color: #919191; }
 
+#meet-us-section {
+  position: relative;
+  height: 600px;
+  background: url("../img/meetus2.jpg") no-repeat;
+  background-position: top -3o0px left 0px;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%; }
+  #meet-us-section .meet-us-content {
+    position: relative;
+    height: 100%; }
+  #meet-us-section .christian {
+    height: 100%;
+    background-color: #3a3d54;
+    opacity: .8;
+    padding: 50px;
+    display: none; }
+    #meet-us-section .christian p {
+      font-size: 18px;
+      font-family: "Prata", serif;
+      color: #fffff0; }
+  #meet-us-section .chimere {
+    height: 100%;
+    background-color: #ead3d0;
+    opacity: .8;
+    padding: 50px; }
+    #meet-us-section .chimere p {
+      font-size: 18px;
+      font-family: "Prata", serif;
+      color: #fffff0; }
+  #meet-us-section .button-holder {
+    position: relative; }
+    #meet-us-section .button-holder .meet-christian {
+      position: absolute;
+      top: 450px;
+      left: 120px;
+      background: #3a3d54;
+      padding: 20px 40px 20px 40px;
+      color: #ead3d0;
+      font-family: "Prata", serif;
+      font-size: 20px; }
+    #meet-us-section .button-holder .meet-chimere {
+      position: absolute;
+      top: 450px;
+      right: 120px;
+      background: #ead3d0;
+      padding: 20px 40px 20px 40px;
+      color: #3a3d54;
+      font-family: "Prata", serif;
+      font-size: 20px; }
+
 #proposal-section {
   background: url(../img/vinyard.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;

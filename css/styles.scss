@@ -182,62 +182,81 @@ h5{
   }
 }
 
-//#meet-us-section{
-//  position: relative;
-//  height: 900px;
-//  background: url("../img/meetus.jpg") no-repeat center fixed;
-//  -webkit-background-size: 100%;
-//  -moz-background-size: 100%;
-//  -o-background-size: 100%;
-//  background-size: 100%;
-//
-//  .meet-christian{
-//    position: absolute;
-//    bottom: 200px;
-//    left: 103px;
-//
-//  }
-//
-//  .meet-us-content{
-//    flex: 0 0 50%;
-//    height:100%;
-//  }
-//
-//  .christian{
-//    background-color: $navy;
-//    opacity: .8;
-//    padding:50px;
-//
-//
-//    p{
-//      font-size: 18px;
-//      font-family: $lato;
-//      color: $ivory;;
-//    }
-//  }
-//
-//  .chimere{
-//    background-color: $blush;
-//    opacity: .8;
-//    padding:50px;
-//
-//
-//
-//    p{
-//      font-size: 18px;
-//      font-family: $lato;
-//      color: $ivory;;
-//    }
-//  }
-//
-//  .meet-chimere{
-//    position: absolute;
-//    bottom: 200px;
-//    right:103px;
-//
-//  }
-//
-//}
+#meet-us-section{
+  position: relative;
+  height:600px;
+  background: url("../img/meetus2.jpg") no-repeat;
+  background-position: top -3o0px left 0px;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+
+
+  .meet-us-content{
+    position: relative;
+    height:100%;
+    
+  }
+
+  .christian{
+    height:100%;
+    background-color: $navy;
+    opacity: .8;
+    padding:50px;
+    display: none;
+
+
+    p{
+      font-size: 18px;
+      font-family: $lato;
+      color: $ivory;;
+    }
+  }
+
+  .chimere{
+    height:100%;
+    background-color: $blush;
+    opacity: .8;
+    padding:50px;
+
+
+
+    p{
+      font-size: 18px;
+      font-family: $lato;
+      color: $ivory;;
+    }
+  }
+
+  .button-holder{
+    position: relative;
+
+    .meet-christian{
+      position: absolute;
+      top: 450px;
+      left: 120px;
+      background: $navy;
+      padding: 20px 40px 20px 40px;
+      color: $blush;
+      font-family: $lato;
+      font-size: 20px;
+    }
+
+    .meet-chimere{
+      position: absolute;
+      top: 450px;
+      right: 120px;
+      background: $blush;
+      padding: 20px 40px 20px 40px;
+      color: $navy;
+      font-family: $lato;
+      font-size: 20px;
+    }
+  }
+
+}
 
 #proposal-section{
   background: url(../img/vinyard.jpg) no-repeat center center fixed;
@@ -315,15 +334,7 @@ h5{
 
 
   }
-  //div#masonry div {
-  //  transition: .8s opacity;
-  //}
-  //div#masonry:hover div {
-  //  opacity: 0.3;
-  //}
-  //div#masonry:hover div:hover {
-  //  opacity: 1;
-  //}
+
 
 }
 
@@ -485,28 +496,7 @@ overflow-y: scroll;
   margin-bottom: 50px;
 }
 
-//a{
-//  color: $navy;
-//  font-family: $lato;
-//  font-size: 25px;
-//  font-weight: 300;
-//
-//
-//  .ghost-button {
-//    margin-top: 20px;
-//    display: inline-block;
-//    width: 200px;
-//    padding: 8px;
-//    color: $ivory;
-//    border: 3px solid $navy;
-//    text-align: center;
-//    outline: none;
-//    text-decoration: none;
-//
-//
-//  }
-//
-//}
+
 
 
 
