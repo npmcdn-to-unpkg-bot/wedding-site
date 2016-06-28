@@ -236,12 +236,17 @@
         </div>
     </div>
     <div id="atlanta-section" class="section">
-        <div id="atlanta-content" class="my-row">
-            <div class="small-12 medium-12 columns atlanta-content-info">
-                This is where map content will go
+        <div class="my-row">
+            <div class="small-12 map-info medium-6 columns">
+                <h3>On the right are a few of our favorite places to eat and visit.</h3>
+                <h4>we have also included some nearby hotel accomodations.</h4>
             </div>
+            <div id="map-holder" class="small-12 medium-6">
+                <div id="map"></div>
+
+            </div>
+
         </div>
-        <div id="map"></div>
     </div>
 
 
@@ -295,7 +300,7 @@
 
 
         var ctaLayer = new google.maps.KmlLayer({
-            url: '',
+            url: 'http://www.clovesc.us/weddingmap.kml',
             map: map
         });
     }

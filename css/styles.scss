@@ -431,6 +431,7 @@ h5{
 
 #atlanta-section{
 
+
   #atlanta-content{
     z-index:100;
     position: relative;
@@ -443,13 +444,18 @@ h5{
     }
   }
 
+  .map-info{
+    padding: 50px;
+    background-color: $navy;
+  }
+
+
+  #map-holder{
+    height:inherit;
+  }
+
   #map {
     height: 100%;
-    width: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    z-index: 0;
   }
 }
 
@@ -472,6 +478,10 @@ h5{
 }
 .labelle-ff{
   font-family: $labelle;
+}
+
+.lato{
+  font-family: $lato;
 }
 
 .ivory-font{
