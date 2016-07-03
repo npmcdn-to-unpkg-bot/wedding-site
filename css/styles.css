@@ -173,6 +173,10 @@ h5 {
       color: #fffff0;
       font-family: "Prata", serif;
       font-size: 20px; }
+    #meet-us-section .button-holder .meet-christian:hover {
+      background: none;
+      border: 1px solid #3a3d54;
+      color: #3a3d54; }
     #meet-us-section .button-holder .meet-chimere {
       position: absolute;
       top: 450px;
@@ -182,6 +186,11 @@ h5 {
       color: #fffff0;
       font-family: "Prata", serif;
       font-size: 20px; }
+    #meet-us-section .button-holder .meet-chimere:hover {
+      background: none;
+      border: 1px solid #ead3d0;
+      color: #ead3d0;
+      text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3); }
 
 #proposal-section {
   background: url(../img/vinyard.jpg) no-repeat center center fixed;
@@ -231,7 +240,9 @@ h5 {
   border: solid 2px #3a3d54; }
   #rsvp-registry-section .rsvp-postcard h3 {
     font-weight: 300;
-    color: #3a3d54; }
+    color: #3a3d54;
+    font-family: "Great Vibes", "cursive;";
+    font-size: 50px; }
   #rsvp-registry-section .rsvp-postcard .rsvp-form {
     margin-top: 50px;
     padding-left: 50px; }
