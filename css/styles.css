@@ -1,6 +1,14 @@
 ul {
   list-style: none; }
 
+.flex {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap; }
+
 .my-row {
   height: 100%;
   display: -webkit-flex;
@@ -134,7 +142,8 @@ h5 {
     height: 100%;
     background-color: #3a3d54;
     opacity: .8;
-    padding: 50px; }
+    padding: 50px;
+    display: none; }
     #meet-us-section .christian .close-christian {
       position: absolute;
       top: 0px;
@@ -148,7 +157,8 @@ h5 {
     left: -4000px;
     height: 100%;
     background-color: rgba(234, 211, 208, 0.9);
-    padding: 50px; }
+    padding: 50px;
+    display: none; }
     #meet-us-section .chimere .close-chimere {
       position: absolute;
       top: 0px;
@@ -302,34 +312,38 @@ h5 {
         width: 300px;
         height: 189px; }
 
-.atlanta-divider {
-  background: url(../img/background2.jpg) no-repeat;
-  background-position: top -128px right 0px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-color: #111F2C;
-  height: 400px; }
-  .atlanta-divider h2 {
-    font-size: 75px;
-    padding-top: 130px; }
-
-#atlanta-section #atlanta-content {
-  z-index: 100;
-  position: relative;
-  width: 50%; }
-  #atlanta-section #atlanta-content .atlanta-content-info {
-    background-color: #3a3d54;
-    opacity: .9;
-    padding: 50px; }
-#atlanta-section .map-info {
-  padding: 50px;
+#atlanta-section {
   background-color: #3a3d54; }
-#atlanta-section #map-holder {
-  height: inherit; }
-#atlanta-section #map {
-  height: 100%; }
+  #atlanta-section .atlanta-divider {
+    background: url(../img/background2.jpg) no-repeat;
+    background-position: top -180px right 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #111F2C;
+    height: 350px;
+    margin-bottom: -40px; }
+    #atlanta-section .atlanta-divider h2 {
+      font-size: 75px;
+      padding-top: 130px; }
+  #atlanta-section #atlanta-content {
+    z-index: 100;
+    position: relative;
+    width: 50%; }
+    #atlanta-section #atlanta-content .atlanta-content-info {
+      opacity: .9;
+      padding: 50px; }
+  #atlanta-section .atlant-holder {
+    height: 100%; }
+  #atlanta-section .map-info {
+    padding: 50px;
+    background-color: #3a3d54; }
+  #atlanta-section #map-holder {
+    height: inherit; }
+  #atlanta-section #map {
+    height: 100%;
+    width: 100%; }
 
 .negative-space {
   margin-bottom: -15px; }
