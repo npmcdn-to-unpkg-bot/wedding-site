@@ -16,19 +16,22 @@ $(document).ready(function() {
     var chimere = $('.chimere');
     var christian = $('.christian');
     var meetUsContent = $('.meet-us-content');
+    var closeChristian = $('.close-christian');
+    var closeChimere = $('.close-chimere');
 
     meetChimere.on('click', function () {
-        chimere.velocity({
-            left: 0
-        }, 800);
+        chimere.velocity({left: 0},{display: 'block'}, 1000);
 
     });
     meetChristian.on('click', function () {
-        christian.velocity({
-            right: 0
-        }, 500);
-        console.log('christian')
+        christian.velocity({right: 0},{display:'block'}, 1000);
 
+    });
+    closeChimere.on('click', function () {
+        chimere.velocity({left: -4000}, {display: 'none'}, 1000);
+    });
+    closeChristian.on('click', function () {
+        christian.velocity({right: -4000}, {display: 'none'}, 1000);
     });
 
     scrollCollage.on('click', function() {

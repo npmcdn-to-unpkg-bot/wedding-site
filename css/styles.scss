@@ -15,495 +15,555 @@ $gray: #919191;
 $navy: #3a3d54;
 
 ul{
-  list-style: none;
+    list-style: none;
 }
 
 .my-row {
-  height:100%;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+    height:100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
 }
 body{
-  background-color: $white-text;
+    background-color: $white-text;
 }
 
 #main-navigation{
-  height: 50px;
-  background-color: $ivory;
+    height: 50px;
+    background-color: $ivory;
 }
 
 h1{
-  font-family: $labelle;
-  font-weight: 400;
-  color: $ivory;
-  font-size: 70px;
+    font-family: $labelle;
+    font-weight: 400;
+    color: $ivory;
+    font-size: 70px;
 
 
 }
 
 
 h2{
-  font-family: $labelle;
-  font-weight: 300;
-  color: $ivory;
+    font-family: $labelle;
+    font-weight: 300;
+    color: $ivory;
 }
 
 h3{
-  font-family: $lato;
-  font-weight: 400;
-  color: $ivory;
+    font-family: $lato;
+    font-weight: 400;
+    color: $ivory;
 
-  span{
-    font-size: 25px;
-  }
+    span{
+        font-size: 25px;
+    }
 }
 h4{
-  font-family: $lato;
-  font-weight: 400;
-  color: $gray;
+    font-family: $lato;
+    font-weight: 400;
+    color: $gray;
 }
 h5{
-  font-family: $lato;
-  color: $gray;
-  font-weight: 300;
+    font-family: $lato;
+    color: $gray;
+    font-weight: 300;
 }
 
 
 #hamburger{
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 10;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
 
 }
 
 #overlay-nav{
-  background-color: $navy;
-  opacity: 0.9;
-  z-index:1000;
-  height:0%;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
+    background-color: $navy;
+    opacity: 0.9;
+    z-index:1000;
+    height:0%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 
-  .closebtn-holder{
-    text-align: left;
-    margin-left: 20px;
+    .closebtn-holder{
+        text-align: left;
+        margin-left: 20px;
 
 
-    .closebtn{
-      font-size: 50px;
-      color: $white-text;
+        .closebtn{
+            font-size: 50px;
+            color: $white-text;
 
+        }
     }
-  }
-  .overlay-text{
+    .overlay-text{
 
-    ul li{
-      font-family: $lato;
-      font-weight: 300;
-      font-size: 50px;
-      text-decoration: none;
-      margin-bottom: 20px;
-      list-style-type: none;
+        ul li{
+            font-family: $lato;
+            font-weight: 300;
+            font-size: 50px;
+            text-decoration: none;
+            margin-bottom: 20px;
+            list-style-type: none;
 
-      a{
-        color: $white-text;
-      }
+            a{
+                color: $white-text;
+            }
 
+        }
     }
-  }
 
 }
 
 #home-index-section{
-  background: url(../img/christianandchimere.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-color: $dark-blue;
+    background: url(../img/christianandchimere.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: $dark-blue;
 
-  #logo{
-    margin-bottom: 100px;
-  }
+    #logo{
+        margin-bottom: 100px;
+    }
 
-  h2, h3{
-    font-family: $lato;
-  }
-  a{
-    color: $navy;
-    font-family: $lato;
-    font-size: 25px;
-    font-weight: 300;
-
-
-      .ghost-button {
-        margin-top: 20px;
-        display: inline-block;
-        width: 200px;
-        padding: 8px;
+    h2, h3{
+        font-family: $lato;
+    }
+    a{
         color: $navy;
-        border: 1px solid $navy;
-        text-align: center;
-        outline: none;
-        text-decoration: none;
+        font-family: $lato;
+        font-size: 25px;
+        font-weight: 300;
 
 
-      }
+        .rsvp-button {
+            margin-top: 20px;
+            display: inline-block;
+            width: 200px;
+            padding: 8px;
+            color: $navy;
+            border: 1px solid $navy;
+            text-align: center;
+            outline: none;
+            text-decoration: none;
 
-  }
+
+
+        }
+        .rsvp-button:hover{
+            background-color: $navy;
+            color: $white-text;
+        }
+
+    }
 
 
 }
 
 #our-story-section{
 
-  position: relative;
-  background-color: $lighter-gray;
+    position: relative;
+    background-color: $lighter-gray;
 
-  h3{
-    font-weight:300;
-    color: $navy;
-  }
-  h2{
-    color: $navy;
-  }
+    h3{
+        font-weight:300;
+        color: $navy;
+    }
+    h2{
+        color: $navy;
+    }
 
 
 
-  p{
-    color: $gray;
-  }
+    p{
+        color: $gray;
+        text-align: justify;
+    }
 }
 
 #meet-us-section{
-  position: relative;
-  height:600px;
-  background: url("../img/meetus2.jpg") no-repeat;
-  background-position: top -3o0px left 0px;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-
-
-
-  .meet-us-content{
     position: relative;
-    height:100%;
-    
-  }
+    height:600px;
+    background: url("../img/meetus2.jpg") no-repeat;
+    background-position: top -3o0px left 0px;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
 
-  .christian{
-    height:100%;
-    background-color: $navy;
-    opacity: .8;
-    padding:50px;
-    display: none;
+    .christian{
+        position: absolute;
+        top: 0px;
+        right: -4000px;
+        height:100%;
+        background-color: $navy;
+        opacity: .8;
+        padding:50px;
+
+        .close-christian{
+            position: absolute;
+            top: 0px;
+            left: 20px;
+            font-size: 40px;
+            color: $ivory;
+            cursor: pointer;
+        }
+
+    }
+
+    .chimere{
+        position: absolute;
+        top: 0px;
+        left: -4000px;
+        height:100%;
+        background-color: rgba(234,211,208, 0.9);
+        padding:50px;
+
+        .close-chimere{
+            position: absolute;
+            top: 0px;
+            right: 20px;
+            font-size: 40px;
+            color: $ivory;
+            cursor: pointer;
+        }
+
+    }
+
+    .aboutus-close{
+        position: absolute;
+    }
 
 
     p{
-      font-size: 18px;
-      font-family: $lato;
-      color: $ivory;;
-    }
-  }
+        font-size: 20px;
+        color: $ivory;
+        text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
 
-  .chimere{
-    height:100%;
-    background-color: $blush;
-    opacity: .8;
-    padding:50px;
-
-
-
-    p{
-      font-size: 18px;
-      font-family: $lato;
-      color: $ivory;;
-    }
-  }
-
-  .button-holder{
-    position: relative;
-
-    .meet-christian{
-      position: absolute;
-      top: 450px;
-      left: 120px;
-      background: $navy;
-      padding: 20px 40px 20px 40px;
-      color: $blush;
-      font-family: $lato;
-      font-size: 20px;
     }
 
-    .meet-chimere{
-      position: absolute;
-      top: 450px;
-      right: 120px;
-      background: $blush;
-      padding: 20px 40px 20px 40px;
-      color: $navy;
-      font-family: $lato;
-      font-size: 20px;
+    .button-holder{
+        position: relative;
+
+        .meet-christian{
+            position: absolute;
+            top: 450px;
+            left: 120px;
+            background: $navy;
+            padding: 20px 40px 20px 40px;
+            color: $ivory;
+            font-family: $lato;
+            font-size: 20px;
+        }
+
+        .meet-chimere{
+            position: absolute;
+            top: 450px;
+            right: 120px;
+            background: $blush;
+            padding: 20px 40px 20px 40px;
+            color: $ivory;
+            font-family: $lato;
+            font-size: 20px;
+        }
     }
-  }
 
 }
 
 #proposal-section{
-  background: url(../img/vinyard.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url(../img/vinyard.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 
-  .proposal-info{
+    .proposal-info{
 
 
-    .proposal-info-content{
-      background-color: $navy;
-      opacity: .85;
-      padding: 50px;
+        .proposal-info-content{
+            background-color: $navy;
+            opacity: .85;
+            padding: 50px;
+        }
+        p{
+            color: $white-text;
+        }
     }
-    p{
-      color: $white-text;
-    }
-  }
 }
 
 #event-info-section{
-  background-color: $blush;
-  
-  h1{
-    color: $gray;
-  }
+    background-color: $blush;
+
+    h1{
+        color: $gray;
+    }
 
 
-  h2{
-    font-family: $labelle;
-    font-weight: 300;
-    color: $gray;
-    margin-top: 70px;
+    h2{
+        font-family: $labelle;
+        font-weight: 300;
+        color: $gray;
+        margin-top: 70px;
 
-  }
+    }
 
-  h3{
-    font-family: $lato;
-    font-weight: 400;
-    color: $gray;
-  }
-
-
+    h3{
+        font-family: $lato;
+        font-weight: 400;
+        color: $gray;
+    }
 
 
 
-  p{
-    font-family: $lato;
-    color: $gray;
-    margin-bottom: 0px;
-  }
-
-  .scroll-collage{
-    color: $gray;
-    margin-top: 100px;
-    cursor: pointer;
-  }
-
-  .collage{
-    height:900px;
-
-  }
-  .item {
-    float: left;
-    width: 200px;
-
-    margin-top: 10px;
-  }
-
-  .the-dates{
-    margin-left:30px;
 
 
-  }
+    p{
+        color: $gray;
+        margin-bottom: 0px;
+    }
+
+    .scroll-collage{
+        color: $gray;
+        margin-top: 70px;
+        cursor: pointer;
+    }
+
+    .collage{
+        height:900px;
+
+    }
+    .item {
+        float: left;
+        width: 200px;
+
+        margin-top: 10px;
+    }
+
+    .the-dates{
+        margin-left:30px;
+
+
+    }
 
 
 }
 
 #rsvp-registry-section{
 
-  .rsvp-postcard{
-    margin-bottom: 50px;
-    border: solid 2px $navy;
+    .rsvp-postcard{
+        margin-bottom: 50px;
+        margin-top: 50px;
+        border: solid 2px $navy;
 
 
-    h3{
-      font-weight: 300;
-      color: $navy;;
-    }
+        h3{
+            font-weight: 300;
+            color: $navy;;
+        }
 
-    .rsvp-form{
-      padding-left: 50px;
-      input[type=text],
-      input[type=email],
-      input[type=number],
-      input[type=submit]{
-        outline: none;
-        background: none;
-        border: none;
-        border-bottom: 1px solid $navy;
-        font: 400 16px $lato;
-        width: 100%;
-        padding: 10px 0;
-        margin-bottom: 18px;
-        color: $navy;
-        display: block;
-        box-shadow: none;
+        .rsvp-form{
+            margin-top: 50px;
+            padding-left: 50px;
+            input[type=text],
+            input[type=email],
+            input[type=number]{
+                outline: none;
+                background: none;
+                border: none;
+                border-bottom: 1px solid $navy;
+                font: 400 16px $lato;
+                width: 100%;
+                padding: 10px 0;
+                margin-bottom: 18px;
+                color: $navy;
+                display: block;
+                box-shadow: none;
 
-      }
+            }
+            input[type=submit]{
+                outline: none;
+                background: none;
+                border: 1px solid $navy;
+                font: 400 16px $lato;
+                width: 100%;
+                padding: 10px 0;
+                margin-bottom: 18px;
+                color: $navy;
+                display: block;
+                box-shadow: none;
+            }
+            input[type=submit]:hover{
+                background-color: $navy;
+                color: $white-text;
+            }
 
-      label{
-        font-family: $lato;
-        font-weight: 300;
-        color: $navy;
-        font-size: 16px;
+            label{
+                font-family: $lato;
+                font-weight: 300;
+                color: $navy;
+                font-size: 16px;
 
-        float: left;
-        clear: none;
-        display: block;
-      }
+                float: left;
+                clear: none;
+                display: block;
+            }
+            h5{
+                font-family: $lato;
+                color: $navy;
+                font-weight: 300;
+            }
 
-      input[type=radio],
-      input.radio {
-        float: left;
-        clear: none;
-        margin: 8px 9px 0 2px;
-      }
-    }
+            input[type=radio],
+            input.radio {
+                float: left;
+                clear: none;
+                margin: 8px 9px 0 2px;
+            }
+        }
 
-    .registry{
-      width: 100%;
-      padding:50px;
+        .registry{
+            width: 100%;
+            padding:50px;
 
 
 
-      .registry-holder{
-        border-left: solid 1px $navy;
-        height: 600px;
+            .registry-holder{
+                border-left: solid 1px $navy;
+                height: 600px;
 
-        padding-left: 50px;
+                padding-left: 50px;
 
-        .zola{
-          width: 300px;
-          height: 189px;
+                .zola{
+                    width: 300px;
+                    height: 189px;
+
+                }
+            }
 
         }
-      }
-
     }
-  }
 }
 
 .atlanta-divider{
-  background: url(../img/background2.jpg) no-repeat;
-  background-position: top -128px right 0px;
+    background: url(../img/background2.jpg) no-repeat;
+    background-position: top -128px right 0px;
 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-color: $dark-blue;
-  height:400px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: $dark-blue;
+    height:400px;
 
-  h2{
-    font-size: 75px;
-    padding-top: 130px;
-  }
+    h2{
+        font-size: 75px;
+        padding-top: 130px;
+    }
 }
 
 #atlanta-section{
 
 
-  #atlanta-content{
-    z-index:100;
-    position: relative;
-    width:50%;
+    #atlanta-content{
+        z-index:100;
+        position: relative;
+        width:50%;
 
-    .atlanta-content-info{
-      background-color: $navy;
-      opacity: .9;
-      padding: 50px;
+        .atlanta-content-info{
+            background-color: $navy;
+            opacity: .9;
+            padding: 50px;
+        }
     }
-  }
 
-  .map-info{
-    padding: 50px;
-    background-color: $navy;
-  }
+    .map-info{
+        padding: 50px;
+        background-color: $navy;
+    }
 
 
-  #map-holder{
-    height:inherit;
-  }
+    #map-holder{
+        height:inherit;
+    }
 
-  #map {
-    height: 100%;
-  }
+    #map {
+        height: 100%;
+    }
 }
 
 
 .negative-space{
-  margin-bottom: -15px;
+    margin-bottom: -15px;
 }
 
 .below18{
-  margin-bottom: 18px;
+    margin-bottom: 18px;
 }
 .below24{
-  margin-bottom: 24px;
+    margin-bottom: 24px;
 }
 .below30{
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 .below36{
-  margin-bottom: 36px;
+    margin-bottom: 36px;
 }
 .labelle-ff{
-  font-family: $labelle;
+    font-family: $labelle;
 }
 
 .lato{
-  font-family: $lato;
+    font-family: $lato;
 }
 
 .ivory-font{
-  color: $ivory;
+    color: $ivory;
 }
 
 .fwb{
-  font-weight: 700;
+    font-weight: 700;
 }
 
 
 .overflow-hidden {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .overflow-scroll {
-overflow-y: scroll;
+    overflow-y: scroll;
 }
 
 .padtop50{
-  padding-top: 50px;
-  margin-bottom: 50px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* unvisited link */
+a:link {
+    color: $navy;
+}
+
+/* visited link */
+a:visited {
+    color: $navy;
+}
+
+/* mouse over link */
+a:hover {
+    color: $gray;
+}
+
+/* selected link */
+a:active {
+    color: $navy;
 }
 
 

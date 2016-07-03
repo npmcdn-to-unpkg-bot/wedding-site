@@ -92,7 +92,7 @@ h5 {
     font-family: "Prata", serif;
     font-size: 25px;
     font-weight: 300; }
-    #home-index-section a .ghost-button {
+    #home-index-section a .rsvp-button {
       margin-top: 20px;
       display: inline-block;
       width: 200px;
@@ -102,6 +102,9 @@ h5 {
       text-align: center;
       outline: none;
       text-decoration: none; }
+    #home-index-section a .rsvp-button:hover {
+      background-color: #3a3d54;
+      color: #f2f2f2; }
 
 #our-story-section {
   position: relative;
@@ -112,7 +115,8 @@ h5 {
   #our-story-section h2 {
     color: #3a3d54; }
   #our-story-section p {
-    color: #919191; }
+    color: #919191;
+    text-align: justify; }
 
 #meet-us-section {
   position: relative;
@@ -123,28 +127,41 @@ h5 {
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%; }
-  #meet-us-section .meet-us-content {
-    position: relative;
-    height: 100%; }
   #meet-us-section .christian {
+    position: absolute;
+    top: 0px;
+    right: -4000px;
     height: 100%;
     background-color: #3a3d54;
     opacity: .8;
-    padding: 50px;
-    display: none; }
-    #meet-us-section .christian p {
-      font-size: 18px;
-      font-family: "Prata", serif;
-      color: #fffff0; }
-  #meet-us-section .chimere {
-    height: 100%;
-    background-color: #ead3d0;
-    opacity: .8;
     padding: 50px; }
-    #meet-us-section .chimere p {
-      font-size: 18px;
-      font-family: "Prata", serif;
-      color: #fffff0; }
+    #meet-us-section .christian .close-christian {
+      position: absolute;
+      top: 0px;
+      left: 20px;
+      font-size: 40px;
+      color: #fffff0;
+      cursor: pointer; }
+  #meet-us-section .chimere {
+    position: absolute;
+    top: 0px;
+    left: -4000px;
+    height: 100%;
+    background-color: rgba(234, 211, 208, 0.9);
+    padding: 50px; }
+    #meet-us-section .chimere .close-chimere {
+      position: absolute;
+      top: 0px;
+      right: 20px;
+      font-size: 40px;
+      color: #fffff0;
+      cursor: pointer; }
+  #meet-us-section .aboutus-close {
+    position: absolute; }
+  #meet-us-section p {
+    font-size: 20px;
+    color: #fffff0;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1); }
   #meet-us-section .button-holder {
     position: relative; }
     #meet-us-section .button-holder .meet-christian {
@@ -153,7 +170,7 @@ h5 {
       left: 120px;
       background: #3a3d54;
       padding: 20px 40px 20px 40px;
-      color: #ead3d0;
+      color: #fffff0;
       font-family: "Prata", serif;
       font-size: 20px; }
     #meet-us-section .button-holder .meet-chimere {
@@ -162,7 +179,7 @@ h5 {
       right: 120px;
       background: #ead3d0;
       padding: 20px 40px 20px 40px;
-      color: #3a3d54;
+      color: #fffff0;
       font-family: "Prata", serif;
       font-size: 20px; }
 
@@ -193,12 +210,11 @@ h5 {
     font-weight: 400;
     color: #919191; }
   #event-info-section p {
-    font-family: "Prata", serif;
     color: #919191;
     margin-bottom: 0px; }
   #event-info-section .scroll-collage {
     color: #919191;
-    margin-top: 100px;
+    margin-top: 70px;
     cursor: pointer; }
   #event-info-section .collage {
     height: 900px; }
@@ -211,16 +227,17 @@ h5 {
 
 #rsvp-registry-section .rsvp-postcard {
   margin-bottom: 50px;
+  margin-top: 50px;
   border: solid 2px #3a3d54; }
   #rsvp-registry-section .rsvp-postcard h3 {
     font-weight: 300;
     color: #3a3d54; }
   #rsvp-registry-section .rsvp-postcard .rsvp-form {
+    margin-top: 50px;
     padding-left: 50px; }
     #rsvp-registry-section .rsvp-postcard .rsvp-form input[type=text],
     #rsvp-registry-section .rsvp-postcard .rsvp-form input[type=email],
-    #rsvp-registry-section .rsvp-postcard .rsvp-form input[type=number],
-    #rsvp-registry-section .rsvp-postcard .rsvp-form input[type=submit] {
+    #rsvp-registry-section .rsvp-postcard .rsvp-form input[type=number] {
       outline: none;
       background: none;
       border: none;
@@ -232,6 +249,20 @@ h5 {
       color: #3a3d54;
       display: block;
       box-shadow: none; }
+    #rsvp-registry-section .rsvp-postcard .rsvp-form input[type=submit] {
+      outline: none;
+      background: none;
+      border: 1px solid #3a3d54;
+      font: 400 16px "Prata", serif;
+      width: 100%;
+      padding: 10px 0;
+      margin-bottom: 18px;
+      color: #3a3d54;
+      display: block;
+      box-shadow: none; }
+    #rsvp-registry-section .rsvp-postcard .rsvp-form input[type=submit]:hover {
+      background-color: #3a3d54;
+      color: #f2f2f2; }
     #rsvp-registry-section .rsvp-postcard .rsvp-form label {
       font-family: "Prata", serif;
       font-weight: 300;
@@ -240,6 +271,10 @@ h5 {
       float: left;
       clear: none;
       display: block; }
+    #rsvp-registry-section .rsvp-postcard .rsvp-form h5 {
+      font-family: "Prata", serif;
+      color: #3a3d54;
+      font-weight: 300; }
     #rsvp-registry-section .rsvp-postcard .rsvp-form input[type=radio],
     #rsvp-registry-section .rsvp-postcard .rsvp-form input.radio {
       float: left;
@@ -321,5 +356,21 @@ h5 {
 .padtop50 {
   padding-top: 50px;
   margin-bottom: 50px; }
+
+/* unvisited link */
+a:link {
+  color: #3a3d54; }
+
+/* visited link */
+a:visited {
+  color: #3a3d54; }
+
+/* mouse over link */
+a:hover {
+  color: #919191; }
+
+/* selected link */
+a:active {
+  color: #3a3d54; }
 
 /*# sourceMappingURL=styles.css.map */
