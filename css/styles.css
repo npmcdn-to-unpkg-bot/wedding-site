@@ -398,4 +398,8 @@ a:hover {
 a:active {
   color: #3a3d54; }
 
+div.mce_inline_error {
+  background: none;
+  color: #6B0505; }
+
 /*# sourceMappingURL=styles.css.map */
