@@ -207,6 +207,8 @@ h5{
 }
 
 #meet-us-section{
+
+
     position: relative;
     background: url("../img/meetus2.jpg") no-repeat;
     background-position: top -60px left 0px;
@@ -215,12 +217,18 @@ h5{
     -o-background-size: 100%;
     background-size: 100%;
 
+
+    .meet-us-color{
+        background: url("./img/meetus-color.jpg") no-repeat !important;
+    }
+
+
     @media screen and (max-width: $mediumtab) {
         background-position: top -40px left 0px;
 
     }
 
-    .christian-test{
+    .meet-us-holder{
         @media screen and (max-width: $xldesktop) {
             height: 1030px;
 
@@ -260,7 +268,34 @@ h5{
     }
 
 
+    .our-story{
+        background-color: rgba(58,61,84, .8);
+        margin-top: 70px;
+        margin-bottom: 40px;
+        
+        &-content{
+            padding: 30px;
+        }
+        
+        @media screen and (max-width: $tablet) {
+            height: 400px;
+            overflow: scroll;
+        }
 
+        @media screen and (max-width: $xlphone) {
+            height: 350px;
+            overflow: scroll;
+        }
+        @media screen and (max-width: $mediumtab) {
+            margin-top: 20px;
+            height: 310px;
+            overflow: scroll;
+        }
+
+        @media screen and (max-width: $phone) {
+            display: none;
+        }
+    }
 
 
     .christian{
@@ -268,8 +303,7 @@ h5{
         top: 0px;
         right: -4000px;
         height:100%;
-        background-color: $navy;
-        opacity: .8;
+        background-color: rgba(58,61,84, .9);
         padding:50px;
         display: none;
 
@@ -282,6 +316,12 @@ h5{
             cursor: pointer;
         }
 
+        p{
+            font-size: 20px;
+            color: $ivory;
+            text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
+
+        }
 
 
     }
@@ -303,7 +343,12 @@ h5{
             color: $ivory;
             cursor: pointer;
         }
+        p{
+            font-size: 20px;
+            color: $ivory;
+            text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
 
+        }
 
     }
 
@@ -312,30 +357,18 @@ h5{
     }
 
 
-    p{
-        font-size: 20px;
-        color: $ivory;
-        text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
 
-    }
 
     .button-holder{
         position: relative;
 
         .meet-christian{
-            position: absolute;
-            top: 450px;
-            left: 120px;
             background: $navy;
             padding: 20px 40px 20px 40px;
             color: $ivory;
             font-family: $lato;
             font-size: 20px;
 
-            @media screen and (max-width: $tablet) {
-
-                top: 280px;
-            }
         }
         .meet-christian:hover{
             background: none;
@@ -345,19 +378,12 @@ h5{
         }
 
         .meet-chimere{
-            position: absolute;
-            top: 450px;
-            right: 120px;
             background: $blush;
             padding: 20px 40px 20px 40px;
             color: $ivory;
             font-family: $lato;
             font-size: 20px;
 
-            @media screen and (max-width: $tablet) {
-
-                top: 280px;
-            }
         }
 
         .meet-chimere:hover{
@@ -367,6 +393,14 @@ h5{
             text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 
         }
+
+        @media screen and (max-width: $phone) {
+            padding-top: 200px;
+        }
+    }
+    
+    p{
+        color: $ivory;;
     }
 
 }
@@ -383,13 +417,15 @@ h5{
 
 
         .proposal-info-content{
-            background-color: $navy;
-            opacity: .85;
+            background-color: rgba(58,61,84, .8);;
             padding: 50px;
+
+
         }
         p{
             color: $white-text;
         }
+
     }
 }
 
@@ -458,9 +494,7 @@ h5{
     }
 
     .grid{
-        @media screen and (max-width: $phone) {
-            
-        }
+        
         @media screen and (max-width: $xlphone) {
             left:-50px;
         }
@@ -636,6 +670,10 @@ h5{
     #map {
         height: 100%;
         width:100%;
+
+        @media screen and (max-width: $phone) {
+            display: none;
+        }
     }
 }
 

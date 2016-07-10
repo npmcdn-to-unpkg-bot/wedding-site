@@ -18,11 +18,17 @@ $(document).ready(function() {
     var meetUsContent = $('.meet-us-content');
     var closeChristian = $('.close-christian');
     var closeChimere = $('.close-chimere');
+    var ourStory = $('.our-story');
+    var meetUsSection = $('#meet-us-section');
 
     meetChimere.on('click', function () {
         chimere.velocity({left: 0},{display: 'block'}, 1000);
         meetChimere.velocity({right: -4000},{display: 'none'}, 1000);
         meetChristian.addClass('hide');
+
+
+        ourStory.velocity({opacity: 0}, 1000);
+        $('#meet-us-section').css("background-image", "url(./img/meetus-color.jpg)");
 
     });
     meetChristian.on('click', function () {
@@ -30,18 +36,26 @@ $(document).ready(function() {
         meetChristian.velocity({left: -4000}, {display: 'none'}, 1000);
         meetChimere.addClass('hide');
 
-
+        ourStory.velocity({opacity: 0}, 1000);
+        $('#meet-us-section').css("background-image", "url(./img/meetus-color.jpg)");
 
     });
     closeChimere.on('click', function () {
         chimere.velocity({left: -4000}, {display: 'none'}, 1000);
         meetChimere.velocity({right: 120}, {display: 'block'}, 1000);
         meetChristian.removeClass('hide');
+
+        ourStory.velocity({opacity: 1}, 1000);
+        $('#meet-us-section').css("background-image", "url(./img/meetus2.jpg)");
     });
     closeChristian.on('click', function () {
         christian.velocity({right: -4000}, {display: 'none'}, 1000);
         meetChristian.velocity({left: 120}, {display: 'block'}, 1000);
         meetChimere.removeClass('hide');
+
+        ourStory.velocity({opacity: 1}, 1000);
+        $('#meet-us-section').css("background-image", "url(./img/meetus2.jpg)");
+
     });
 
     scrollCollage.on('click', function() {
@@ -50,23 +64,23 @@ $(document).ready(function() {
     });
 
     $('#fullpage').fullpage({
-        anchors: ['index', 'our-story', 'meet-us', 'proposal', 'event-info', 'rsvp-registry', 'atlanta'],
+        anchors: ['index', 'meet-us', 'proposal', 'event-info', 'rsvp-registry', 'atlanta'],
         menu: '#menu',
         autoScrolling: false,
         fitToSection: false,
         onLeave: function(index, nextIndex, direction){
             var leavingSection = $(this);
 
-            if(!nextIndex === 4) {
+            if(!nextIndex === 3) {
                 collage.removeClass('overflow-hidden');
                 collage.addClass('overflow-scroll');
             }
 
-            if(nextIndex === 5 && direction === 'down') {
+            if(nextIndex === 4 && direction === 'down') {
                 var $items = getItems();
                 $container.masonryImagesReveal( $items );
                 console.log('loading images')
-            } else if(nextIndex === 5 && direction === 'up') {
+            } else if(nextIndex === 4 && direction === 'up') {
                 console.log('not loading');
                 return;
             }
