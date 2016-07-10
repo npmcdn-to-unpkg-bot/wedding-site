@@ -218,13 +218,12 @@ h5{
     background-size: 100%;
 
 
-    .meet-us-color{
-        background: url("./img/meetus-color.jpg") no-repeat !important;
-    }
-
-
     @media screen and (max-width: $mediumtab) {
         background-position: top -40px left 0px;
+
+    }
+    @media screen and (max-width: $mediumtab) {
+        background-position: top -18px left 0px;
 
     }
 
@@ -264,6 +263,9 @@ h5{
 
         @media screen and (max-width: $phone) {
             height: 380px;
+        }
+        @media screen and (max-width: $xsphone) {
+            height: 230px;
         }
     }
 
@@ -364,7 +366,7 @@ h5{
 
         .meet-christian{
             background: $navy;
-            padding: 20px 40px 20px 40px;
+            padding: 20px 20px 20px 20px;
             color: $ivory;
             font-family: $lato;
             font-size: 20px;
@@ -379,7 +381,7 @@ h5{
 
         .meet-chimere{
             background: $blush;
-            padding: 20px 40px 20px 40px;
+            padding: 20px 20px 20px 20px;
             color: $ivory;
             font-family: $lato;
             font-size: 20px;
@@ -396,6 +398,9 @@ h5{
 
         @media screen and (max-width: $phone) {
             padding-top: 200px;
+        }
+        @media screen and (max-width: $xsphone) {
+            display: none;
         }
     }
     

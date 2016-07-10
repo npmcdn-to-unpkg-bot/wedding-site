@@ -28,7 +28,6 @@ $(document).ready(function() {
 
 
         ourStory.velocity({opacity: 0}, 1000);
-        $('#meet-us-section').css("background-image", "url(./img/meetus-color.jpg)");
 
     });
     meetChristian.on('click', function () {
@@ -37,7 +36,6 @@ $(document).ready(function() {
         meetChimere.addClass('hide');
 
         ourStory.velocity({opacity: 0}, 1000);
-        $('#meet-us-section').css("background-image", "url(./img/meetus-color.jpg)");
 
     });
     closeChimere.on('click', function () {
@@ -46,7 +44,6 @@ $(document).ready(function() {
         meetChristian.removeClass('hide');
 
         ourStory.velocity({opacity: 1}, 1000);
-        $('#meet-us-section').css("background-image", "url(./img/meetus2.jpg)");
     });
     closeChristian.on('click', function () {
         christian.velocity({right: -4000}, {display: 'none'}, 1000);
@@ -54,7 +51,6 @@ $(document).ready(function() {
         meetChimere.removeClass('hide');
 
         ourStory.velocity({opacity: 1}, 1000);
-        $('#meet-us-section').css("background-image", "url(./img/meetus2.jpg)");
 
     });
 
