@@ -16,6 +16,7 @@ $navy: #3a3d54;
 
 $xsphone : 31.25em;     // = 500px
 $phone   : 40em;        // = 640px
+$mediumtab: 48.000em;   //768
 $xlphone : 60em;        // = 960px
 $tablet  : 64em;        // = 1024px
 $desktop : 75em;        // = 1200px
@@ -215,17 +216,24 @@ h5{
     background-size: 100%;
 
 
+
+
     @media screen and (max-width: $tablet) {
-        height: 400px;
+        height: 675px;
 
     }
 
     @media screen and (max-width: $xlphone) {
-        height: 360px;
+        height: 630px;
+    }
+
+    @media screen and (max-width: $mediumtab) {
+        height: 510px;
+
     }
 
     @media screen and (max-width: $phone) {
-        height: 230px;
+        height: 275px;
     }
 
 
@@ -395,11 +403,17 @@ h5{
         color: $gray;
         margin-top: 70px;
         cursor: pointer;
+        @media screen and (max-width: $phone) {
+            display: none;
+        }
     }
 
-    .collage{
-        height:900px;
-
+    .collage {
+        height: 900px;
+        @media screen and (max-width: $phone) {
+            height:0px;
+            display: none;
+        }
     }
     .item {
         float: left;
@@ -415,6 +429,16 @@ h5{
             margin-left: 0;
         }
 
+
+    }
+
+    .grid{
+        @media screen and (max-width: $phone) {
+            
+        }
+        @media screen and (max-width: $xlphone) {
+            left:-50px;
+        }
 
     }
 

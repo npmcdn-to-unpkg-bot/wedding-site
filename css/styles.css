@@ -137,13 +137,16 @@ h5 {
   background-size: 100%; }
   @media screen and (max-width: 64em) {
     #meet-us-section {
-      height: 400px; } }
+      height: 675px; } }
   @media screen and (max-width: 60em) {
     #meet-us-section {
-      height: 360px; } }
+      height: 630px; } }
+  @media screen and (max-width: 48em) {
+    #meet-us-section {
+      height: 510px; } }
   @media screen and (max-width: 40em) {
     #meet-us-section {
-      height: 230px; } }
+      height: 275px; } }
   #meet-us-section .christian {
     position: absolute;
     top: 0px;
@@ -250,8 +253,15 @@ h5 {
     color: #919191;
     margin-top: 70px;
     cursor: pointer; }
+    @media screen and (max-width: 40em) {
+      #event-info-section .scroll-collage {
+        display: none; } }
   #event-info-section .collage {
     height: 900px; }
+    @media screen and (max-width: 40em) {
+      #event-info-section .collage {
+        height: 0px;
+        display: none; } }
   #event-info-section .item {
     float: left;
     width: 200px;
@@ -261,6 +271,9 @@ h5 {
     @media screen and (max-width: 64em) {
       #event-info-section .the-dates {
         margin-left: 0; } }
+  @media screen and (max-width: 60em) {
+    #event-info-section .grid {
+      left: -50px; } }
 
 #rsvp-registry-section .rsvp-postcard {
   margin-bottom: 50px;
