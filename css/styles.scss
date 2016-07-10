@@ -14,6 +14,14 @@ $lighter-gray: #dedbd8;
 $gray: #919191;
 $navy: #3a3d54;
 
+$xsphone : 31.25em;     // = 500px
+$phone   : 40em;        // = 640px
+$xlphone : 60em;        // = 960px
+$tablet  : 64em;        // = 1024px
+$desktop : 75em;        // = 1200px
+$xltablet: 85.375em;    // = 1366px
+$xldesktop : 105em;     // = 1680px
+
 ul{
     list-style: none;
 }
@@ -198,13 +206,36 @@ h5{
 
 #meet-us-section{
     position: relative;
-    height:600px;
+    height: 600px;
     background: url("../img/meetus2.jpg") no-repeat;
-    background-position: top -3o0px left 0px;
+    background-position: top 0px left 0px;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
+
+
+    @media screen and (max-width: $tablet) {
+        height: 400px;
+
+    }
+
+    @media screen and (max-width: $xlphone) {
+        height: 360px;
+    }
+
+    @media screen and (max-width: $phone) {
+        height: 230px;
+    }
+
+
+    //$xsphone : 31.25em;     // = 500px
+    //$phone   : 40em;        // = 640px
+    //$xlphone : 60em;        // = 960px
+    //$tablet  : 64em;        // = 1024px
+    //$desktop : 75em;        // = 1200px
+    //$xltablet: 85.375em;    // = 1366px
+    //$xldesktop : 105em;     // = 1680px
 
     .christian{
         position: absolute;
@@ -225,6 +256,8 @@ h5{
             cursor: pointer;
         }
 
+
+
     }
 
     .chimere{
@@ -244,6 +277,7 @@ h5{
             color: $ivory;
             cursor: pointer;
         }
+
 
     }
 
@@ -271,6 +305,11 @@ h5{
             color: $ivory;
             font-family: $lato;
             font-size: 20px;
+
+            @media screen and (max-width: $tablet) {
+
+                top: 280px;
+            }
         }
         .meet-christian:hover{
             background: none;
@@ -288,6 +327,11 @@ h5{
             color: $ivory;
             font-family: $lato;
             font-size: 20px;
+
+            @media screen and (max-width: $tablet) {
+
+                top: 280px;
+            }
         }
 
         .meet-chimere:hover{
@@ -373,6 +417,10 @@ h5{
 
     .the-dates{
         margin-left:30px;
+
+        @media screen and (max-width: $tablet) {
+            margin-left: 0;
+        }
 
 
     }

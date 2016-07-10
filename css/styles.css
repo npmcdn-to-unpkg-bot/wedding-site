@@ -130,11 +130,20 @@ h5 {
   position: relative;
   height: 600px;
   background: url("../img/meetus2.jpg") no-repeat;
-  background-position: top -3o0px left 0px;
+  background-position: top 0px left 0px;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%; }
+  @media screen and (max-width: 64em) {
+    #meet-us-section {
+      height: 400px; } }
+  @media screen and (max-width: 60em) {
+    #meet-us-section {
+      height: 360px; } }
+  @media screen and (max-width: 40em) {
+    #meet-us-section {
+      height: 230px; } }
   #meet-us-section .christian {
     position: absolute;
     top: 0px;
@@ -183,6 +192,9 @@ h5 {
       color: #fffff0;
       font-family: "Prata", serif;
       font-size: 20px; }
+      @media screen and (max-width: 64em) {
+        #meet-us-section .button-holder .meet-christian {
+          top: 280px; } }
     #meet-us-section .button-holder .meet-christian:hover {
       background: none;
       border: 1px solid #3a3d54;
@@ -196,6 +208,9 @@ h5 {
       color: #fffff0;
       font-family: "Prata", serif;
       font-size: 20px; }
+      @media screen and (max-width: 64em) {
+        #meet-us-section .button-holder .meet-chimere {
+          top: 280px; } }
     #meet-us-section .button-holder .meet-chimere:hover {
       background: none;
       border: 1px solid #ead3d0;
@@ -243,6 +258,9 @@ h5 {
     margin-top: 10px; }
   #event-info-section .the-dates {
     margin-left: 30px; }
+    @media screen and (max-width: 64em) {
+      #event-info-section .the-dates {
+        margin-left: 0; } }
 
 #rsvp-registry-section .rsvp-postcard {
   margin-bottom: 50px;
@@ -397,9 +415,5 @@ a:hover {
 /* selected link */
 a:active {
   color: #3a3d54; }
-
-div.mce_inline_error {
-  background: none;
-  color: #6B0505; }
 
 /*# sourceMappingURL=styles.css.map */
