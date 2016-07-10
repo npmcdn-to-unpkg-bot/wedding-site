@@ -229,13 +229,6 @@ h5{
     }
 
 
-    //$xsphone : 31.25em;     // = 500px
-    //$phone   : 40em;        // = 640px
-    //$xlphone : 60em;        // = 960px
-    //$tablet  : 64em;        // = 1024px
-    //$desktop : 75em;        // = 1200px
-    //$xltablet: 85.375em;    // = 1366px
-    //$xldesktop : 105em;     // = 1680px
 
     .christian{
         position: absolute;
@@ -501,19 +494,36 @@ h5{
                 clear: none;
                 margin: 8px 9px 0 2px;
             }
+
+
+            @media screen and (max-width: $tablet) {
+                padding: 20px;
+
+            }
         }
 
         .registry{
             width: 100%;
             padding:50px;
 
+            @media screen and (max-width: $tablet) {
+                padding: 0;
+
+            }
 
 
             .registry-holder{
                 border-left: solid 1px $navy;
                 height: 600px;
 
+
                 padding-left: 50px;
+
+                @media screen and (max-width: $tablet) {
+                    border:none;
+                    padding-left: 0px;
+
+                }
 
                 .zola{
                     width: 300px;
