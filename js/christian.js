@@ -21,17 +21,27 @@ $(document).ready(function() {
 
     meetChimere.on('click', function () {
         chimere.velocity({left: 0},{display: 'block'}, 1000);
+        meetChimere.velocity({right: -4000},{display: 'none'}, 1000);
+        meetChristian.addClass('hide');
 
     });
     meetChristian.on('click', function () {
         christian.velocity({right: 0},{display:'block'}, 1000);
+        meetChristian.velocity({left: -4000}, {display: 'none'}, 1000);
+        meetChimere.addClass('hide');
+
+
 
     });
     closeChimere.on('click', function () {
         chimere.velocity({left: -4000}, {display: 'none'}, 1000);
+        meetChimere.velocity({right: 120}, {display: 'block'}, 1000);
+        meetChristian.removeClass('hide');
     });
     closeChristian.on('click', function () {
         christian.velocity({right: -4000}, {display: 'none'}, 1000);
+        meetChristian.velocity({left: 120}, {display: 'block'}, 1000);
+        meetChimere.removeClass('hide');
     });
 
     scrollCollage.on('click', function() {

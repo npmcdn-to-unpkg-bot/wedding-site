@@ -321,7 +321,8 @@ h5 {
       margin: 8px 9px 0 2px; }
     @media screen and (max-width: 64em) {
       #rsvp-registry-section .rsvp-postcard .rsvp-form {
-        padding: 20px; } }
+        padding: 20px;
+        border-bottom: solid 1px #3a3d54; } }
   #rsvp-registry-section .rsvp-postcard .registry {
     width: 100%;
     padding: 50px; }
@@ -425,5 +426,11 @@ a:hover {
 /* selected link */
 a:active {
   color: #3a3d54; }
+
+.hide {
+  display: none; }
+
+.show {
+  display: block; }
 
 /*# sourceMappingURL=styles.css.map */

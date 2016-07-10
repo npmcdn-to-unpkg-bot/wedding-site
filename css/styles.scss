@@ -498,6 +498,7 @@ h5{
 
             @media screen and (max-width: $tablet) {
                 padding: 20px;
+                border-bottom: solid 1px $navy;
 
             }
         }
@@ -654,6 +655,13 @@ a:hover {
 /* selected link */
 a:active {
     color: $navy;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
 }
 
 
