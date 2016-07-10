@@ -140,6 +140,9 @@ h5 {
   @media screen and (max-width: 105em) {
     #meet-us-section .christian-test {
       height: 1030px; } }
+  @media screen and (max-width: 89.875em) {
+    #meet-us-section .christian-test {
+      height: 890px; } }
   @media screen and (max-width: 85.375em) {
     #meet-us-section .christian-test {
       height: 840px; } }

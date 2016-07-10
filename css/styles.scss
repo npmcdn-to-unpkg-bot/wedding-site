@@ -21,6 +21,7 @@ $xlphone : 60em;        // = 960px
 $tablet  : 64em;        // = 1024px
 $desktop : 75em;        // = 1200px
 $xltablet: 85.375em;    // = 1366px
+$mediumdesk: 89.875em;   // = 1438px
 $xldesktop : 105em;     // = 1680px
 
 ul{
@@ -223,6 +224,10 @@ h5{
         @media screen and (max-width: $xldesktop) {
             height: 1030px;
 
+        }
+
+        @media screen and (max-width: $mediumdesk) {
+            height: 890px;
         }
 
         @media screen and (max-width: $xltablet) {
