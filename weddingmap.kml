@@ -2,19 +2,20 @@
 <kml xmlns='http://www.opengis.net/kml/2.2'>
 	<Document>
 		<name>Chimére + Christian Wedding Map</name>
-		<description><![CDATA[]]></description>
+		<description><![CDATA[Use this map to help you navigate to C+C's favorite places around Atlanta and Decatur. ]]></description>
 		<Folder>
 			<name>Event Locations</name>
 			<Placemark>
-				<name>Wahoo! Grill</name>
-				<styleUrl>#icon-960-DB4436-nodesc</styleUrl>
+				<name>Wahoo! Grill Decatur</name>
+				<description><![CDATA[1042 W College Ave, Decatur, GA 30030<br><br>Saturday, 9/10: Happily ever after begins here at 11:00 am sharp! ]]></description>
+				<styleUrl>#icon-960-DB4436</styleUrl>
 				<Point>
 					<coordinates>-84.31071259999999,33.7648605,0.0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
 				<name>Piedmont Park Pavilion (Small - 2)</name>
-				<description><![CDATA[Friday, 9/9/16: These coordinates will guide you directly to the pavilion near the soccer fields and tennis center where our "Say I Do" Barbecue will take place the evening before our nuptials.]]></description>
+				<description><![CDATA[Coordinates for GPS: 33.78686, -84.3745<br><br>Friday, 9/9/16: These coordinates will guide you directly to the pavilion near the soccer fields and tennis center where our "Say I Do" Barbecue will take place the evening before our nuptials.]]></description>
 				<styleUrl>#icon-960-DB4436</styleUrl>
 				<Point>
 					<coordinates>-84.37450000000001,33.78686111111111,0.0</coordinates>
@@ -22,24 +23,27 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>Hotel Options</name>
+			<name>Lodging Options</name>
 			<Placemark>
 				<name>Courtyard Atlanta Decatur Downtown/Emory</name>
-				<styleUrl>#icon-1035-nodesc</styleUrl>
+				<description><![CDATA[130 Clairemont Ave, Decatur, GA 30030<br>www.courtyarddecatur.com<br><br>Rooms have been reserved under "Faison/Barnard Wedding" at a rate of $159/night ($12/night parking). A shuttle will be running from the wedding + reception venue (Wahoo! Grill) to the hotel every hour on the hour.]]></description>
+				<styleUrl>#icon-1035</styleUrl>
 				<Point>
 					<coordinates>-84.29695099999998,33.776809,0.0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
 				<name>Emory Conference Center Hotel</name>
-				<styleUrl>#icon-1035-nodesc</styleUrl>
+				<description><![CDATA[1615 Clifton Rd, Atlanta, GA 30329<br>www.emoryconferencecenter.com<br><br>Alternative lodging option. Regular rates apply. (No room block rates or shuttle available.)]]></description>
+				<styleUrl>#icon-1035</styleUrl>
 				<Point>
 					<coordinates>-84.32431199999996,33.801544,0.0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
 				<name>Sheraton Atlanta Hotel</name>
-				<styleUrl>#icon-1035-nodesc</styleUrl>
+				<description><![CDATA[Alternative lodging option. Regular rates apply. (No room block rates or shuttle available.)]]></description>
+				<styleUrl>#icon-1035</styleUrl>
 				<Point>
 					<coordinates>-84.38320090000002,33.7589981,0.0</coordinates>
 				</Point>
@@ -49,7 +53,7 @@
 			<name>Foodie Hotspots</name>
 			<Placemark>
 				<name>Apres Diem</name>
-				<description><![CDATA[Hip and French with yummy food! Here's the location of Chimére and Christian's first date as a couple. Don't skip dessert!]]></description>
+				<description><![CDATA[931 Monroe Dr NE, Atlanta, GA 30308<br>www.apresdiem.com<br><br>Hip and French with yummy food! Here's the location of Chimére and Christian's first date as a couple. Don't skip dessert!]]></description>
 				<styleUrl>#icon-1085</styleUrl>
 				<Point>
 					<coordinates>-84.36715049999998,33.7791736,0.0</coordinates>
@@ -57,7 +61,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Thumbs Up Diner</name>
-				<description><![CDATA[The fish and grits never disappoint. These peeps make their own jams, too. Pop in for breakfast but be sure you've got cash (no cards accepted).]]></description>
+				<description><![CDATA[174 W Ponce de Leon Ave, Decatur, GA 30030<br>www.thumbsupdiner.com<br><br>The fish and grits never disappoint. These peeps make their own jams, too. Pop in for breakfast but be sure you've got cash (no cards accepted).]]></description>
 				<styleUrl>#icon-1085</styleUrl>
 				<Point>
 					<coordinates>-84.29813939999997,33.77541989999999,0.0</coordinates>
@@ -65,7 +69,7 @@
 			</Placemark>
 			<Placemark>
 				<name>The Varsity</name>
-				<description><![CDATA[Ballpark cuisine known by many as an antidote for a late night of spirits, The Varsity has a historical relevance of its own. Common order by those who know what's up: chili cheese dog, onion rings (skip the fries), and an orange drink. What'll ya have?!]]></description>
+				<description><![CDATA[61 North Avenue NW, Atlanta, GA 30308<br>www.thevarsity.com<br><br>Ballpark cuisine known by many as an antidote for a late night of spirits, The Varsity has a historical relevance of its own. Common order by those who know what's up: chili cheese dog, onion rings (skip the fries), and an orange drink. What'll ya have?!]]></description>
 				<styleUrl>#icon-1085</styleUrl>
 				<Point>
 					<coordinates>-84.38933370000001,33.7716918,0.0</coordinates>
@@ -73,7 +77,8 @@
 			</Placemark>
 			<Placemark>
 				<name>Taqueria del Sol</name>
-				<styleUrl>#icon-1085-nodesc</styleUrl>
+				<description><![CDATA[359 W Ponce de Leon Ave, Decatur, GA 30030<br>taqueriadelsol.com<br><br>Taco fusion on steroids. The "Memphis" taco will make you wanna slap your mama!]]></description>
+				<styleUrl>#icon-1085</styleUrl>
 				<Point>
 					<coordinates>-84.30206529999998,33.77596889999999,0.0</coordinates>
 				</Point>
@@ -88,7 +93,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Noni's</name>
-				<description><![CDATA[C&C's go-to for their pasta cravings, Noni's has a neighborhood bar kinda feel. The staff is pretty stoic but the chef makes up for it. They have a decent craft beer selection.]]></description>
+				<description><![CDATA[357 Edgewood Ave SE, Atlanta, GA 30312<br>www.nonisdeli.com<br><br>C+C's go-to for their pasta cravings, Noni's has a neighborhood bar kinda feel. The staff is pretty stoic but the chef makes up for it. They have a decent craft beer selection.]]></description>
 				<styleUrl>#icon-1085</styleUrl>
 				<Point>
 					<coordinates>-84.37594569999999,33.7541876,0.0</coordinates>
@@ -96,7 +101,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Edgewood Corner Tavern</name>
-				<description><![CDATA[The site of Chimére's official reign of pool tables versus Christian, this is a quirky spot and one of few in Atlanta that still allow cig smoking (upstairs only). They have great assortment of craft beer and the food is tasty.]]></description>
+				<description><![CDATA[464 Edgewood Ave SE, Atlanta, GA 30312<br>www.thecornertavern.com<br><br>The site of Chimére's official reign of pool tables versus Christian, this is a quirky spot and one of few in Atlanta that still allow cig smoking (upstairs only). They have great assortment of craft beer and the food is tasty.]]></description>
 				<styleUrl>#icon-1085</styleUrl>
 				<Point>
 					<coordinates>-84.37250469999998,33.7545457,0.0</coordinates>
@@ -104,7 +109,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Krog Street Market</name>
-				<description><![CDATA[Plenty of restaurants and casual dining here. Plus they're water evangelists, giving out free water - cold, room temp or sparkling. There's a bakery that'll make you wanna slap your mama and Hop City has so many craft beers you'll need to call an Uber. Parking is a challenge so plan on valet.]]></description>
+				<description><![CDATA[99 Krog St NE, Atlanta, GA 30307<br>www.krogstreetmarket.com<br><br>Plenty of restaurants and casual dining here. Plus they're water evangelists, giving out free water - cold, room temp or sparkling. There's a bakery that'll make you wanna slap your mama and Hop City has so many craft beers you'll need to call an Uber. Parking is a challenge so plan on valet.]]></description>
 				<styleUrl>#icon-1085</styleUrl>
 				<Point>
 					<coordinates>-84.3640337,33.7567673,0.0</coordinates>
@@ -112,7 +117,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Ponce City Market</name>
-				<description><![CDATA[PCM is literally the site where Chimére and Christian worked nights and developed a solid friendship. Its got tons of shops and food on the 1st and 2nd floor. Download the ParkMobile app for easy parking or plan to valet.]]></description>
+				<description><![CDATA[675 Ponce De Leon Ave NE, Atlanta, GA 30308<br><br>PCM is literally the site where Chimére and Christian worked nights and developed a solid friendship. Its got tons of shops and food on the 1st and 2nd floor. Download the ParkMobile app for easy parking or plan to valet.]]></description>
 				<styleUrl>#icon-1085</styleUrl>
 				<Point>
 					<coordinates>-84.36618959999998,33.7722636,0.0</coordinates>
@@ -120,7 +125,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Cypress Street Pint and Plate</name>
-				<description><![CDATA[Christian and Chimére love this place! The best appetizer is the sweet potato nachos by far. They also have a great assortment of beers and wine. The food is never lacking and the service is top notch.]]></description>
+				<description><![CDATA[817 West Peachtree St NW, Atlanta, GA 30308<br>cypressbar.com<br><br>Christian and Chimére love this place! The best appetizer is the sweet potato nachos by far. They also have a great assortment of beers and wine. The food is never lacking and the service is top notch.]]></description>
 				<styleUrl>#icon-1085</styleUrl>
 				<Point>
 					<coordinates>-84.3861202,33.7773102,0.0</coordinates>
@@ -128,7 +133,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Across the Street</name>
-				<description><![CDATA[The couple first visited this place after vowing not to wait in line for brunch at Highland Bakery across the street. It's got a tex-mex flair done in a sophisticated way. Try the crab enchiladas! (Sundays no booze until 12:30pm)]]></description>
+				<description><![CDATA[668 Highland Ave NE, Atlanta, GA 30312<br>acrossthestreetatlanta.com<br><br>The couple first visited this place after vowing not to wait in line for brunch at Highland Bakery across the street. It's got a tex-mex flair done in a sophisticated way. Try the crab enchiladas! (Sundays no booze until 12:30pm)]]></description>
 				<styleUrl>#icon-1085</styleUrl>
 				<Point>
 					<coordinates>-84.36539099999999,33.7614518,0.0</coordinates>
@@ -136,7 +141,7 @@
 			</Placemark>
 			<Placemark>
 				<name>El Bandido Mex Mex Grill</name>
-				<description><![CDATA[The staff is friendly and the food consistently meets expectations. You can't beat the free parking since parking throughout the city is scarce. Margaritas anyone?]]></description>
+				<description><![CDATA[1083 Euclid Ave NE, Atlanta, GA 30307<br>elbandidomexmexgrill.com<br><br>The staff is friendly and the food consistently meets expectations. You can't beat the free parking since parking throughout the city is scarce. Margaritas anyone?]]></description>
 				<styleUrl>#icon-1085</styleUrl>
 				<Point>
 					<coordinates>-84.3515921,33.7631826,0.0</coordinates>
@@ -147,7 +152,7 @@
 			<name>Tourist spots</name>
 			<Placemark>
 				<name>Center for Civil and Human Rights</name>
-				<description><![CDATA[Part of Atlanta's many museums, the Center has amazing exhibits including a simulator of the sit-ins our ancestors endured in pursuit of equality. A must-see!]]></description>
+				<description><![CDATA[100 Ivan Allen Jr Blvd NW, Atlanta, GA 30313<br>www.civilandhumanrights.org<br><br>Part of Atlanta's many museums, the Center has amazing exhibits including a simulator of the sit-ins our ancestors endured in pursuit of equality. A must-see!]]></description>
 				<styleUrl>#icon-1037</styleUrl>
 				<Point>
 					<coordinates>-84.39305100000001,33.76405500000001,0.0</coordinates>
@@ -155,7 +160,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Georgia Aquarium</name>
-				<description><![CDATA[Adults and kiddos alike love this place. Chimére's favorites? The tank full of piranhas, the penguins and the beluga whales.]]></description>
+				<description><![CDATA[225 Baker St NW, Atlanta, GA 30313<br>www.georgiaaquarium.org<br><br>Adults and kiddos alike love this place. Chimére's favorites? The tank full of piranhas, the penguins and the beluga whales.]]></description>
 				<styleUrl>#icon-1037</styleUrl>
 				<Point>
 					<coordinates>-84.3951098,33.76338199999999,0.0</coordinates>
@@ -163,7 +168,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Martin Luther King Jr. National Historic Site</name>
-				<description><![CDATA[You can't visit Atlanta without stopping here to pay homage to the man who lead the Civil Rights movement. For a bonus, sign up for a free tour of his childhood home.]]></description>
+				<description><![CDATA[450 Auburn Ave NE, Atlanta, GA 30312<br>www.nps.gov<br><br>You can't visit Atlanta without stopping here to pay homage to the man who lead the Civil Rights movement. For a bonus, sign up for a free tour of his childhood home.]]></description>
 				<styleUrl>#icon-1037</styleUrl>
 				<Point>
 					<coordinates>-84.37345149999999,33.7563179,0.0</coordinates>
@@ -171,7 +176,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Little Five Points</name>
-				<description><![CDATA[This area of Atlanta is pretty hippy wacky chic. Lots of artists selling their creations, hip clothing shops and plenty of food around. This is a go-to for Chimére's vape and piercing needs and Christian's hookah supplies.]]></description>
+				<description><![CDATA[Little Five Points, Atlanta, GA 30307<br><br>This area of Atlanta is pretty hippy wacky chic. Lots of artists selling their creations, hip clothing shops and plenty of food around. This is a go-to for Chimére's vape and piercing needs and Christian's hookah supplies.]]></description>
 				<styleUrl>#icon-1037</styleUrl>
 				<Point>
 					<coordinates>-84.349604,33.7643869,0.0</coordinates>
@@ -179,13 +184,47 @@
 			</Placemark>
 			<Placemark>
 				<name>The Wren's Nest</name>
-				<styleUrl>#icon-1037-nodesc</styleUrl>
+				<description><![CDATA[1050 Ralph David Abernathy Blvd, Atlanta, GA 30310<br>www.wrensnest.org<br><br>History from storytelling. This place has outstanding reviews and is great for families.]]></description>
+				<styleUrl>#icon-1037</styleUrl>
 				<Point>
 					<coordinates>-84.422393,33.7375619,0.0</coordinates>
 				</Point>
 			</Placemark>
+			<Placemark>
+				<name>SkyView Atlanta</name>
+				<description><![CDATA[168 Luckie St NW, Atlanta, GA 30303<br>www.skyviewatlanta.com<br><br>A view of Atlanta near Centennial Park. They have a wine/beer bar, too!]]></description>
+				<styleUrl>#icon-1037</styleUrl>
+				<Point>
+					<coordinates>-84.39190129999997,33.7589102,0.0</coordinates>
+				</Point>
+			</Placemark>
 		</Folder>
-		<Style id='icon-1035-nodesc-normal'>
+		<Folder>
+			<name>Directions from Courtyard Atlanta Decatur Downtown/Emory to Wahoo! Grill Decatur</name>
+			<Placemark>
+				<name>Directions from Courtyard Atlanta Decatur Downtown/Emory to Wahoo! Grill Decatur</name>
+				<styleUrl>#line-1267FF-5-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-84.29695,33.77711,0.0 -84.29763,33.77712,0.0 -84.29771,33.77711,0.0 -84.29778,33.77711,0.0 -84.2978,33.7771,0.0 -84.29783,33.7771,0.0 -84.29787,33.77708,0.0 -84.29791,33.77706,0.0 -84.29799,33.777,0.0 -84.298,33.777,0.0 -84.29801,33.77699,0.0 -84.29802,33.77699,0.0 -84.29803,33.77699,0.0 -84.29818,33.777,0.0 -84.29888,33.77701,0.0 -84.29888,33.77695,0.0 -84.29889,33.77688,0.0 -84.29888,33.77646,0.0 -84.29888,33.77637,0.0 -84.29888,33.77608,0.0 -84.29888,33.77605,0.0 -84.29888,33.77582,0.0 -84.29888,33.77558,0.0 -84.29888,33.77514,0.0 -84.29889,33.77504,0.0 -84.29889,33.77494,0.0 -84.29889,33.7746,0.0 -84.29889,33.77456,0.0 -84.29889,33.77449,0.0 -84.29889,33.77436,0.0 -84.29888,33.77422,0.0 -84.29888,33.77411,0.0 -84.29888,33.77402,0.0 -84.29887,33.77357,0.0 -84.29886,33.77323,0.0 -84.29887,33.77298,0.0 -84.29887,33.7729,0.0 -84.29886,33.77269,0.0 -84.29886,33.77261,0.0 -84.29886,33.77252,0.0 -84.29887,33.77203,0.0 -84.29887,33.77194,0.0 -84.29886,33.77182,0.0 -84.29888,33.77148,0.0 -84.29889,33.77134,0.0 -84.29889,33.7713,0.0 -84.29889,33.77116,0.0 -84.29892,33.771,0.0 -84.29894,33.77096,0.0 -84.29895,33.77092,0.0 -84.29896,33.77089,0.0 -84.29898,33.77083,0.0 -84.29907,33.77067,0.0 -84.29913,33.77055,0.0 -84.29918,33.77044,0.0 -84.29924,33.77032,0.0 -84.29929,33.77021,0.0 -84.29932,33.77016,0.0 -84.29934,33.77012,0.0 -84.29937,33.77006,0.0 -84.29941,33.76998,0.0 -84.29944,33.76993,0.0 -84.29947,33.76986,0.0 -84.29949,33.7698,0.0 -84.2995,33.76977,0.0 -84.29952,33.76972,0.0 -84.29952,33.76968,0.0 -84.29953,33.76961,0.0 -84.29955,33.7695,0.0 -84.29954,33.76945,0.0 -84.29953,33.76935,0.0 -84.29951,33.76923,0.0 -84.29948,33.76913,0.0 -84.29945,33.76906,0.0 -84.29951,33.76905,0.0 -84.29986,33.76894,0.0 -84.2999,33.76893,0.0 -84.3001,33.76888,0.0 -84.30033,33.76883,0.0 -84.3006,33.76877,0.0 -84.30083,33.76872,0.0 -84.30105,33.76867,0.0 -84.30137,33.76857,0.0 -84.30179,33.76843,0.0 -84.30206,33.76833,0.0 -84.30302,33.76798,0.0 -84.30345,33.76783,0.0 -84.30377,33.76772,0.0 -84.30393,33.76767,0.0 -84.30452,33.76747,0.0 -84.30478,33.76739,0.0 -84.30487,33.76728,0.0 -84.30489,33.76726,0.0 -84.30494,33.76721,0.0 -84.305,33.76714,0.0 -84.30525,33.76692,0.0 -84.30525,33.76688,0.0 -84.30523,33.76668,0.0 -84.30548,33.7666,0.0 -84.30619,33.76634,0.0 -84.30661,33.76619,0.0 -84.30805,33.76571,0.0 -84.30853,33.76555,0.0 -84.30899,33.7654,0.0 -84.30952,33.76526,0.0 -84.30961,33.76524,0.0 -84.30977,33.76521,0.0 -84.31008,33.76515,0.0 -84.31035,33.7651,0.0 -84.3106,33.76506,0.0 -84.31074,33.76504,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Courtyard Atlanta Decatur Downtown/Emory</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-84.2969479,33.7771105,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Wahoo! Grill Decatur</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-84.3107422,33.7650423,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-1035-normal'>
 			<IconStyle>
 				<scale>1.1</scale>
 				<Icon>
@@ -195,11 +234,8 @@
 			<LabelStyle>
 				<scale>0.0</scale>
 			</LabelStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
 		</Style>
-		<Style id='icon-1035-nodesc-highlight'>
+		<Style id='icon-1035-highlight'>
 			<IconStyle>
 				<scale>1.1</scale>
 				<Icon>
@@ -209,18 +245,15 @@
 			<LabelStyle>
 				<scale>1.1</scale>
 			</LabelStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
 		</Style>
-		<StyleMap id='icon-1035-nodesc'>
+		<StyleMap id='icon-1035'>
 			<Pair>
 				<key>normal</key>
-				<styleUrl>#icon-1035-nodesc-normal</styleUrl>
+				<styleUrl>#icon-1035-normal</styleUrl>
 			</Pair>
 			<Pair>
 				<key>highlight</key>
-				<styleUrl>#icon-1035-nodesc-highlight</styleUrl>
+				<styleUrl>#icon-1035-highlight</styleUrl>
 			</Pair>
 		</StyleMap>
 		<Style id='icon-1037-normal'>
@@ -255,44 +288,6 @@
 				<styleUrl>#icon-1037-highlight</styleUrl>
 			</Pair>
 		</StyleMap>
-		<Style id='icon-1037-nodesc-normal'>
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1037-biz-house.png</href>
-				</Icon>
-			</IconStyle>
-			<LabelStyle>
-				<scale>0.0</scale>
-			</LabelStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='icon-1037-nodesc-highlight'>
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1037-biz-house.png</href>
-				</Icon>
-			</IconStyle>
-			<LabelStyle>
-				<scale>1.1</scale>
-			</LabelStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<StyleMap id='icon-1037-nodesc'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#icon-1037-nodesc-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#icon-1037-nodesc-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
 		<Style id='icon-1085-normal'>
 			<IconStyle>
 				<scale>1.1</scale>
@@ -325,12 +320,15 @@
 				<styleUrl>#icon-1085-highlight</styleUrl>
 			</Pair>
 		</StyleMap>
-		<Style id='icon-1085-nodesc-normal'>
+		<Style id='icon-503-DB4436-nodesc-normal'>
 			<IconStyle>
+				<color>ff3644DB</color>
 				<scale>1.1</scale>
 				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1085-biz-restaurant-generic.png</href>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
 				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
 			</IconStyle>
 			<LabelStyle>
 				<scale>0.0</scale>
@@ -339,12 +337,15 @@
 				<text><![CDATA[<h3>$[name]</h3>]]></text>
 			</BalloonStyle>
 		</Style>
-		<Style id='icon-1085-nodesc-highlight'>
+		<Style id='icon-503-DB4436-nodesc-highlight'>
 			<IconStyle>
+				<color>ff3644DB</color>
 				<scale>1.1</scale>
 				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1085-biz-restaurant-generic.png</href>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
 				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
 			</IconStyle>
 			<LabelStyle>
 				<scale>1.1</scale>
@@ -353,14 +354,14 @@
 				<text><![CDATA[<h3>$[name]</h3>]]></text>
 			</BalloonStyle>
 		</Style>
-		<StyleMap id='icon-1085-nodesc'>
+		<StyleMap id='icon-503-DB4436-nodesc'>
 			<Pair>
 				<key>normal</key>
-				<styleUrl>#icon-1085-nodesc-normal</styleUrl>
+				<styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
 			</Pair>
 			<Pair>
 				<key>highlight</key>
-				<styleUrl>#icon-1085-nodesc-highlight</styleUrl>
+				<styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
 			</Pair>
 		</StyleMap>
 		<Style id='icon-960-DB4436-normal'>
@@ -397,44 +398,32 @@
 				<styleUrl>#icon-960-DB4436-highlight</styleUrl>
 			</Pair>
 		</StyleMap>
-		<Style id='icon-960-DB4436-nodesc-normal'>
-			<IconStyle>
-				<color>ff3644DB</color>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
-				</Icon>
-			</IconStyle>
-			<LabelStyle>
-				<scale>0.0</scale>
-			</LabelStyle>
+		<Style id='line-1267FF-5-nodesc-normal'>
+			<LineStyle>
+				<color>ffFF6712</color>
+				<width>5</width>
+			</LineStyle>
 			<BalloonStyle>
 				<text><![CDATA[<h3>$[name]</h3>]]></text>
 			</BalloonStyle>
 		</Style>
-		<Style id='icon-960-DB4436-nodesc-highlight'>
-			<IconStyle>
-				<color>ff3644DB</color>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
-				</Icon>
-			</IconStyle>
-			<LabelStyle>
-				<scale>1.1</scale>
-			</LabelStyle>
+		<Style id='line-1267FF-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ffFF6712</color>
+				<width>8.0</width>
+			</LineStyle>
 			<BalloonStyle>
 				<text><![CDATA[<h3>$[name]</h3>]]></text>
 			</BalloonStyle>
 		</Style>
-		<StyleMap id='icon-960-DB4436-nodesc'>
+		<StyleMap id='line-1267FF-5-nodesc'>
 			<Pair>
 				<key>normal</key>
-				<styleUrl>#icon-960-DB4436-nodesc-normal</styleUrl>
+				<styleUrl>#line-1267FF-5-nodesc-normal</styleUrl>
 			</Pair>
 			<Pair>
 				<key>highlight</key>
-				<styleUrl>#icon-960-DB4436-nodesc-highlight</styleUrl>
+				<styleUrl>#line-1267FF-5-nodesc-highlight</styleUrl>
 			</Pair>
 		</StyleMap>
 	</Document>
