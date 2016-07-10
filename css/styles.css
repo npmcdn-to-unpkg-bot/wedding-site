@@ -128,25 +128,36 @@ h5 {
 
 #meet-us-section {
   position: relative;
-  height: 600px;
   background: url("../img/meetus2.jpg") no-repeat;
-  background-position: top 0px left 0px;
+  background-position: top -60px left 0px;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%; }
-  @media screen and (max-width: 64em) {
-    #meet-us-section {
-      height: 675px; } }
-  @media screen and (max-width: 60em) {
-    #meet-us-section {
-      height: 630px; } }
   @media screen and (max-width: 48em) {
     #meet-us-section {
-      height: 510px; } }
+      background-position: top -40px left 0px; } }
+  @media screen and (max-width: 105em) {
+    #meet-us-section .christian-test {
+      height: 1030px; } }
+  @media screen and (max-width: 85.375em) {
+    #meet-us-section .christian-test {
+      height: 840px; } }
+  @media screen and (max-width: 75em) {
+    #meet-us-section .christian-test {
+      height: 740px; } }
+  @media screen and (max-width: 64em) {
+    #meet-us-section .christian-test {
+      height: 615px; } }
+  @media screen and (max-width: 60em) {
+    #meet-us-section .christian-test {
+      height: 570px; } }
+  @media screen and (max-width: 48em) {
+    #meet-us-section .christian-test {
+      height: 470px; } }
   @media screen and (max-width: 40em) {
-    #meet-us-section {
-      height: 275px; } }
+    #meet-us-section .christian-test {
+      height: 380px; } }
   #meet-us-section .christian {
     position: absolute;
     top: 0px;

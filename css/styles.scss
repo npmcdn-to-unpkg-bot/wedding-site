@@ -207,34 +207,54 @@ h5{
 
 #meet-us-section{
     position: relative;
-    height: 600px;
     background: url("../img/meetus2.jpg") no-repeat;
-    background-position: top 0px left 0px;
+    background-position: top -60px left 0px;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
 
-
-
-
-    @media screen and (max-width: $tablet) {
-        height: 675px;
-
-    }
-
-    @media screen and (max-width: $xlphone) {
-        height: 630px;
-    }
-
     @media screen and (max-width: $mediumtab) {
-        height: 510px;
+        background-position: top -40px left 0px;
 
     }
 
-    @media screen and (max-width: $phone) {
-        height: 275px;
+    .christian-test{
+        @media screen and (max-width: $xldesktop) {
+            height: 1030px;
+
+        }
+
+        @media screen and (max-width: $xltablet) {
+            height: 840px;
+
+        }
+
+        @media screen and (max-width: $desktop) {
+            height: 740px;
+
+        }
+
+        @media screen and (max-width: $tablet) {
+            height: 615px;
+
+        }
+
+        @media screen and (max-width: $xlphone) {
+            height: 570px;
+        }
+
+        @media screen and (max-width: $mediumtab) {
+            height: 470px;
+
+        }
+
+        @media screen and (max-width: $phone) {
+            height: 380px;
+        }
     }
+
+
 
 
 

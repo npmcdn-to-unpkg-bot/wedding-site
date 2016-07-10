@@ -50,23 +50,23 @@ $(document).ready(function() {
     });
 
     $('#fullpage').fullpage({
-        anchors: ['index', 'our-story', 'proposal', 'event-info', 'rsvp-registry', 'atlanta'],
+        anchors: ['index', 'our-story', 'meet-us', 'proposal', 'event-info', 'rsvp-registry', 'atlanta'],
         menu: '#menu',
         autoScrolling: false,
         fitToSection: false,
         onLeave: function(index, nextIndex, direction){
             var leavingSection = $(this);
 
-            if(!nextIndex === 3) {
+            if(!nextIndex === 4) {
                 collage.removeClass('overflow-hidden');
                 collage.addClass('overflow-scroll');
             }
 
-            if(nextIndex === 4 && direction === 'down') {
+            if(nextIndex === 5 && direction === 'down') {
                 var $items = getItems();
                 $container.masonryImagesReveal( $items );
                 console.log('loading images')
-            } else if(nextIndex === 4 && direction === 'up') {
+            } else if(nextIndex === 5 && direction === 'up') {
                 console.log('not loading');
                 return;
             }
