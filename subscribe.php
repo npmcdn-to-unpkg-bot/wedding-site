@@ -83,7 +83,7 @@ function mc_subscribe($email, $fname, $wedding_rsvp, $bbq_rsvp, $debug, $apikey,
     curl_setopt($ch, CURLOPT_POSTFIELDS, $json_data);
     $result = curl_exec($ch);
     if ($debug) {
-        var_dump($result);
+        var_dump(curl_getinfo($ch));
         die('<br><br>*Creepy etheral voice* : Mailchimp executed subscribe');
     }
     die();
