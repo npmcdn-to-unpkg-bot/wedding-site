@@ -60,7 +60,6 @@ switch($action) {
         break;
 }
 function mc_subscribe($email, $fname, $wedding_rsvp, $bbq_rsvp, $debug, $apikey, $listid, $server) {
-    $auth ='user:'.$apikey;
     $data = array(
         'apikey'        => $apikey,
         'email_address' => $email,
@@ -74,8 +73,8 @@ function mc_subscribe($email, $fname, $wedding_rsvp, $bbq_rsvp, $debug, $apikey,
     $json_data = json_encode($data);
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, 'https://'.$server.'api.mailchimp.com/3.0/lists/'.$listid.'/members/');
-    curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json',
-        'Authorization: Basic '.$auth));
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
+    curl_setopt($ch, CURLOPT_USERPWD, "USR:6cbcb3af8340ec1f771cdfc45ee06133-us13");
     curl_setopt($ch, CURLOPT_USERAGENT, 'PHP-MCAPI/3.0');
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_TIMEOUT, 10);
