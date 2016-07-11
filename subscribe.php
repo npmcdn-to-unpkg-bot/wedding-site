@@ -7,7 +7,7 @@ $bbq_rsvp = $_POST["bbq_rsvp"];
 $interest = $_POST["interest"];
 $debug = isset($_POST["debug"])?$_POST["debug"]:0;
 $apikey = '6cbcb3af8340ec1f771cdfc45ee06133-us13';
-$listid = $_POST["listid"];
+$listid = $_POST["listID"];
 $server = 'us13';
 if ($debug) {
     echo "*Robot voice* : Bleep bleep. Debugging is on master. <br><br>";
