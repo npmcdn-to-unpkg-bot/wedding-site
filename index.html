@@ -307,11 +307,12 @@
         var bbqRsvpField1 = $('#bbq-rsvp-field-1').val();
 
         var url = "subscribe.php"; // the script where you handle the form input.
-
+        var formData = { action: 'subscribe', email: emailField, fname: fullNameField, wedding_rsvp: weddiingRsvpField, bbq_rsvp: bbqRsvpField };
+        console.log(formData);
         $.ajax({
             type: "POST",
             url: url,
-            data: { action: 'subscribe', email: emailField, fname: fullNameField, wedding_rsvp: weddiingRsvpField, bbq_rsvp: bbqRsvpField }, // serializes the form's elements.
+            data: formData,
             success: function(data)
             {
                 alert(data); // show response from the php script.
