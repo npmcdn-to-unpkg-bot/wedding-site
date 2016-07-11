@@ -13,7 +13,7 @@ if ($debug) {
     echo "*Robot voice* : Bleep bleep. Debugging is on master. <br><br>";
 }
 if (!isset($email)) {
-    echo $email;
+    echo "*Robot voice*: No email master, I don't know what to do now. <br><br>";
 }
 switch($action) {
     case "subscribe":
