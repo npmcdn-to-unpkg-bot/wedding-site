@@ -179,24 +179,25 @@
                                 <h5>Will you be attending the ceremony?</h5>
                                 <div class="mc-field-group input-group">
                                     <div class="">
-                                        <input type="radio"value="Yes I will be attending" name="MMERGE4" id="wedding-rsvp-field-0">
+                                        <input type="radio"value="Yes I will be attending" name="wedding-rsvp" id="wedding-rsvp-field-0">
                                         <label for="wedding-rsvp-field-0">Yes, I will be attending!</label>
                                     </div>
                                     <div class="">
-                                        <input type="radio" value="Sorry I can't make it" name="MMERGE4" id="wedding-rsvp-field-1">
+                                        <input type="radio" value="Sorry I can't make it" name="wedding-rsvp" id="wedding-rsvp-field-1">
                                         <label for="wedding-rsvp-field-1">Sorry, I can't make it.</label>
                                     </div>
+
                                 </div>
                             </div>
                             <div class="below18">
                                 <h5>Will you be attending the barbecue?</h5>
                                 <div class="mc-field-group input-group">
                                     <div class="">
-                                        <input type="radio"value="Yes I will be attending" name="MMERGE2" id="bbq-rsvp-field-0">
+                                        <input type="radio"value="Yes I will be attending" name="bbq-rsvp" id="bbq-rsvp-field-0">
                                         <label for="bbq-rsvp-field-0">Yes, I will be attending!</label>
                                     </div>
                                     <div class="">
-                                        <input type="radio" value="Sorry I can't make it" name="MMERGE2" id="bbq-rsvp-field-1">
+                                        <input type="radio" value="Sorry I can't make it" name="bbq-rsvp" id="bbq-rsvp-field-1">
                                         <label for="bbq-rsvp-field-1">Sorry, I can't make it.</label>
                                     </div>
                                 </div>
@@ -285,6 +286,8 @@
 
 
 
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="js/velocity.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
@@ -301,20 +304,19 @@
 
         var emailField = $('#email-field').val();
         var fullNameField = $('#full-name-field').val();
-        var weddiingRsvpField = $('#wedding-rsvp-field-0').val();
-        var weddiingRsvpField1 = $('#wedding-rsvp-field-1').val();
-        var bbqRsvpField = $('#bbq-rsvp-field-0').val();
-        var bbqRsvpField1 = $('#bbq-rsvp-field-1').val();
+        var weddingValue = $('input[name="wedding-rsvp"]:checked').val();
+        var bbqValue = $('input[name="bbq-rsvp"]:checked').val();
+
 
         var url = "subscribe.php"; // the script where you handle the form input.
-        var formData = { listID:'a95be4a370', action: 'subscribe', email: emailField, fname: fullNameField, wedding_rsvp: weddiingRsvpField, bbq_rsvp: bbqRsvpField };
+        var formData = { listID:'a95be4a370', action: 'subscribe', email: emailField, fname: fullNameField, wedding_rsvp: weddingValue, bbq_rsvp: bbqValue };
         $.ajax({
             type: "POST",
             url: url,
             data: formData,
             success: function(data)
             {
-                console.log(data); // show response from the php script.
+               alert('See you there!' + formData.fname);
             }
         });
 
