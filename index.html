@@ -308,7 +308,6 @@
 
         var url = "subscribe.php"; // the script where you handle the form input.
         var formData = { listID:'a95be4a370', action: 'subscribe', email: emailField, fname: fullNameField, wedding_rsvp: weddiingRsvpField, bbq_rsvp: bbqRsvpField };
-        console.log(formData);
         $.ajax({
             type: "POST",
             url: url,
