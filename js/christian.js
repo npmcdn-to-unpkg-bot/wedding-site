@@ -21,6 +21,11 @@ $(document).ready(function() {
     var ourStory = $('.our-story');
     var meetUsSection = $('#meet-us-section');
 
+
+
+
+
+
     meetChimere.on('click', function () {
         chimere.velocity({left: 0},{display: 'block'}, 1000);
         meetChimere.velocity({right: -4000},{display: 'none'}, 1000);
