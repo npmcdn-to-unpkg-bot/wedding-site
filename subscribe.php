@@ -60,7 +60,6 @@ switch($action) {
         break;
 }
 function mc_subscribe($email, $fname, $wedding_rsvp, $bbq_rsvp, $debug, $apikey, $listid, $server) {
-    echo $email;
     $auth = base64_encode( 'user:'.$apikey );
     $data = array(
         'apikey'        => $apikey,
@@ -72,6 +71,8 @@ function mc_subscribe($email, $fname, $wedding_rsvp, $bbq_rsvp, $debug, $apikey,
             'MMERGE2' => $bbq_rsvp
         )
     );
+
+    echo $data;
     $json_data = json_encode($data);
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, 'https://'.$server.'api.mailchimp.com/3.0/lists/'.$listid.'/members/');
