@@ -60,7 +60,7 @@ switch($action) {
         break;
 }
 function mc_subscribe($email, $fname, $wedding_rsvp, $bbq_rsvp, $debug, $apikey, $listid, $server) {
-    echo "in mcfunction";
+    echo $email;
     $auth = base64_encode( 'user:'.$apikey );
     $data = array(
         'apikey'        => $apikey,
