@@ -71,8 +71,7 @@ function mc_subscribe($email, $fname, $wedding_rsvp, $bbq_rsvp, $debug, $apikey,
             'MMERGE2' => $bbq_rsvp
         )
     );
-
-    echo $data;
+    echo 'https://'.$server.'api.mailchimp.com/3.0/lists/'.$listid.'/members/';
     $json_data = json_encode($data);
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, 'https://'.$server.'api.mailchimp.com/3.0/lists/'.$listid.'/members/');
