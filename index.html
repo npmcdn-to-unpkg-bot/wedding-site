@@ -170,24 +170,21 @@
                     <div id="mc_embed_signup_scroll">
                             <div class="mc-field-group">
 
-                                <input type="email" value="" name="email" placeholder="Email Address" class="required email" id="mce-EMAIL">
+                                <input type="email" name="email" placeholder="Email Address" class="required email" id="email-field">
                             </div>
                             <div class="mc-field-group">
-                                <input type="text" value="" name="fname" placeholder="First Name" class="required" id="mce-FNAME">
-                            </div>
-                            <div class="mc-field-group">
-                                <input type="text" value="" name="MMERGE5" class="required" placeholder="Last Name" id="mce-MMERGE5">
+                                <input type="text" name="fname" placeholder="Full Name" class="required" id="full-name-field">
                             </div>
                             <div class="below18">
                                 <h5>Will you be attending the ceremony?</h5>
                                 <div class="mc-field-group input-group">
                                     <div class="">
-                                        <input type="radio"value="Yes I will be attending" name="MMERGE4" id="mce-MMERGE4-0">
-                                        <label for="mce-MMERGE4-0">Yes, I will be attending!</label>
+                                        <input type="radio"value="Yes I will be attending" name="MMERGE4" id="wedding-rsvp-field-0">
+                                        <label for="wedding-rsvp-field-0">Yes, I will be attending!</label>
                                     </div>
                                     <div class="">
-                                        <input type="radio" value="Sorry I can't make it" name="MMERGE4" id="mce-MMERGE4-1">
-                                        <label for="mce-MMERGE4-1">Sorry, I can't make it.</label>
+                                        <input type="radio" value="Sorry I can't make it" name="MMERGE4" id="wedding-rsvp-field-1">
+                                        <label for="wedding-rsvp-field-1">Sorry, I can't make it.</label>
                                     </div>
                                 </div>
                             </div>
@@ -195,12 +192,12 @@
                                 <h5>Will you be attending the barbecue?</h5>
                                 <div class="mc-field-group input-group">
                                     <div class="">
-                                        <input type="radio"value="Yes I will be attending" name="MMERGE2" id="mce-MMERGE2-0">
-                                        <label for="mce-MMERGE2-0">Yes, I will be attending!</label>
+                                        <input type="radio"value="Yes I will be attending" name="MMERGE2" id="bbq-rsvp-field-0">
+                                        <label for="bbq-rsvp-field-0">Yes, I will be attending!</label>
                                     </div>
                                     <div class="">
-                                        <input type="radio" value="Sorry I can't make it" name="MMERGE2" id="mce-MMERGE2-1">
-                                        <label for="mce-MMERGE2-1">Sorry, I can't make it.</label>
+                                        <input type="radio" value="Sorry I can't make it" name="MMERGE2" id="bbq-rsvp-field-1">
+                                        <label for="bbq-rsvp-field-1">Sorry, I can't make it.</label>
                                     </div>
                                 </div>
                             </div>
@@ -302,12 +299,19 @@
     // this is the id of the form
     $("#signup-form").submit(function(e) {
 
+        var emailField = $('#email-field').val();
+        var fullNameField = $('#full-name-field').val();
+        var weddiingRsvpField = $('#wedding-rsvp-field-0').val();
+        var weddiingRsvpField1 = $('#wedding-rsvp-field-1').val();
+        var bbqRsvpField = $('#bbq-rsvp-field-0').val();
+        var bbqRsvpField1 = $('#bbq-rsvp-field-1').val();
+
         var url = "subscribe.php"; // the script where you handle the form input.
 
         $.ajax({
             type: "POST",
             url: url,
-            data: $("#idForm").serialize(), // serializes the form's elements.
+            data: { action: 'subscribe', email: emailField, fname: fullNameField, wedding_rsvp: weddiingRsvpField, bbq_rsvp: bbqRsvpField }, // serializes the form's elements.
             success: function(data)
             {
                 alert(data); // show response from the php script.

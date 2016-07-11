@@ -2,8 +2,8 @@
 $action = $_POST["action"];
 $email = $_POST["email"];
 $fname = $_POST["fname"];
-$wedding_rsvp = $_POST["MMERGE4"];
-$bbq_rsvp = $_POST["MMERGE2"];
+$wedding_rsvp = $_POST["wedding_rsvp"];
+$bbq_rsvp = $_POST["bbq_rsvp"];
 $interest = $_POST["interest"];
 $debug = isset($_POST["debug"])?$_POST["debug"]:0;
 $apikey = '6cbcb3af8340ec1f771cdfc45ee06133-us13';
