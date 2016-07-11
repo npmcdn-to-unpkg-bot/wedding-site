@@ -60,7 +60,7 @@ switch($action) {
         break;
 }
 function mc_subscribe($email, $fname, $wedding_rsvp, $bbq_rsvp, $debug, $apikey, $listid, $server) {
-    $auth = base64_encode( 'user:'.$apikey );
+    $auth ='user:'.$apikey;
     $data = array(
         'apikey'        => $apikey,
         'email_address' => $email,
@@ -71,13 +71,12 @@ function mc_subscribe($email, $fname, $wedding_rsvp, $bbq_rsvp, $debug, $apikey,
             'MMERGE2' => $bbq_rsvp
         )
     );
-    echo 'https://'.$server.'api.mailchimp.com/3.0/lists/'.$listid.'/members/';
     $json_data = json_encode($data);
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, 'https://'.$server.'api.mailchimp.com/3.0/lists/'.$listid.'/members/');
     curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json',
         'Authorization: Basic '.$auth));
-    curl_setopt($ch, CURLOPT_USERAGENT, 'PHP-MCAPI/2.0');
+    curl_setopt($ch, CURLOPT_USERAGENT, 'PHP-MCAPI/3.0');
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_TIMEOUT, 10);
     curl_setopt($ch, CURLOPT_POST, true);
