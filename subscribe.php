@@ -61,7 +61,6 @@ switch($action) {
 }
 function mc_subscribe($email, $fname, $wedding_rsvp, $bbq_rsvp, $debug, $apikey, $listid, $server) {
     $data = array(
-        'apikey'        => $apikey,
         'email_address' => $email,
         'status'        => 'subscribed',
         'merge_fields'  => array(
