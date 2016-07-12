@@ -302,29 +302,6 @@
         async defer></script>
 <script>
 
-    // this is the id of the form
-    $("#signup-form").submit(function(e) {
-
-        var emailField = $('#email-field').val();
-        var fullNameField = $('#full-name-field').val();
-        var weddingValue = $('input[name="wedding-rsvp"]:checked').val();
-        var bbqValue = $('input[name="bbq-rsvp"]:checked').val();
-
-
-        var url = "christian/subscribe.php"; // the script where you handle the form input.
-        var formData = { listID:'a95be4a370', action: 'subscribe', email: emailField, fname: fullNameField, wedding_rsvp: weddingValue, bbq_rsvp: bbqValue };
-        $.ajax({
-            type: "POST",
-            url: url,
-            data: formData,
-            success: function(data)
-            {
-               alert('See you there ' + formData.fname);
-            }
-        });
-
-        e.preventDefault(); // avoid to execute the actual submit of the form.
-    });
 
     function initMap() {
 
