@@ -18,7 +18,7 @@ if (!isset($email)) {
 switch($action) {
     case "subscribe":
         if ($debug) {
-            echo "*Robot voice* : Starting subscribe <br><br>";
+            echo "*Robot voice* : Starting subscribe sir <br><br>";
         }
         mc_subscribe($email, $fname, $wedding_rsvp, $bbq_rsvp, $debug, $apikey, $listid, $server);
         if ($debug) {
