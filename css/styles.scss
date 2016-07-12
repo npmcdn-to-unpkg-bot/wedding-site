@@ -46,7 +46,7 @@ ul{
     flex-flow: row wrap;
 }
 body{
-    background-color: $white-text;
+    background-color: $navy;
 }
 
 #main-navigation{
@@ -510,7 +510,7 @@ h5{
 }
 
 #rsvp-registry-section{
-
+    background-color: $white-text;
     .rsvp-postcard{
         margin-bottom: 50px;
         margin-top: 50px;
@@ -680,6 +680,24 @@ h5{
             display: none;
         }
     }
+    a:link {
+        color: $blush;
+    }
+
+    /* visited link */
+    a:visited {
+        color: $blush;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: $gray;
+    }
+
+    /* selected link */
+    a:active {
+        color: $blush;
+    }
 }
 
 
@@ -757,7 +775,10 @@ a:active {
 }
 
 
-
+.clear-float{
+    clear: both;
+    overflow: auto;
+}
 
 
 
