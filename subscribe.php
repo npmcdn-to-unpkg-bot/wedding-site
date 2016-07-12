@@ -6,7 +6,7 @@ $wedding_rsvp = $_POST["wedding_rsvp"];
 $bbq_rsvp = $_POST["bbq_rsvp"];
 $interest = $_POST["interest"];
 $debug = isset($_POST["debug"])?$_POST["debug"]:0;
-$apikey = 'b97f486e01bc3af6cb7e4a4e623f2796-us13';
+$apikey = '35262ac20b612df993d9e9c1d4aa12bf-us13';
 $listid = $_POST["listID"];
 $server = 'us13.';
 if ($debug) {

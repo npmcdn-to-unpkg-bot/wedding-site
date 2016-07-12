@@ -308,7 +308,7 @@
         var bbqValue = $('input[name="bbq-rsvp"]:checked').val();
 
 
-        var url = "subscribe.php"; // the script where you handle the form input.
+        var url = "christian/subscribe.php"; // the script where you handle the form input.
         var formData = { listID:'a95be4a370', action: 'subscribe', email: emailField, fname: fullNameField, wedding_rsvp: weddingValue, bbq_rsvp: bbqValue };
         $.ajax({
             type: "POST",
