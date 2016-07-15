@@ -212,10 +212,10 @@ h5{
     position: relative;
     background: url("../img/meetus2.jpg") no-repeat;
     background-position: top -60px left 0px;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 
     @media screen and (max-width: $mediumtab) {
@@ -363,7 +363,7 @@ h5{
 
     .button-holder{
         position: relative;
-
+        margin-bottom: 50px;
         .meet-christian{
             background: $navy;
             padding: 20px 20px 20px 20px;
